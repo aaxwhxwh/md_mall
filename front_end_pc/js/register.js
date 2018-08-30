@@ -146,7 +146,7 @@ var vm = new Vue({
                             // 展示倒计时信息
                             this.sms_code_tip = num + '秒';
                         }
-                    }, 1000, 60)
+                    }, 1000)
                 })
                 .catch(error => {
                     if (error.response.status == 400) {
