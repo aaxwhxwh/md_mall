@@ -106,14 +106,14 @@
           <entry key="html" value="2" />
           <entry key="js" value="27" />
           <entry key="py" value="2540" />
-          <entry key="txt" value="22" />
+          <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2" />
           <entry key="JavaScript" value="27" />
-          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="PLAIN_TEXT" value="42" />
           <entry key="Python" value="2540" />
         </counts>
       </usages-collector>
@@ -163,8 +163,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="308">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
                 <marker date="1535618548000" expanded="true" signature="436:510" ph="..." />
@@ -385,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535534768741</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sms_code">
+      <created>1535619338216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535619338216</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -424,7 +431,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="add backend" />
+    <MESSAGE value="sms_code" />
+    <option name="LAST_COMMIT_MESSAGE" value="sms_code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings.py" />
@@ -583,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="308">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
             <marker date="1535618548000" expanded="true" signature="436:510" ph="..." />
