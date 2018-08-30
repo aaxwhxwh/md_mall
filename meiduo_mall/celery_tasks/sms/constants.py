@@ -8,8 +8,8 @@
 # 短信验证码过期时间
 SMS_CODE_REDIS_EXPIRES = 300
 
-# 发送短信验证
-SMS_FLAG = 1
+# 短信发送模板
+SEND_SMS_TEMPLATE_ID = 1
 
-# 发送短信的时间间隔
+# 允许再次发送短信间隔时间
 SMS_FLAG_REDIS_EXPIRES = 60

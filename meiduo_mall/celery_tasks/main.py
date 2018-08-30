@@ -6,11 +6,10 @@
 @time: 2018/08/30
 """
 from celery import Celery
-
-
-app = Celery("meiduo")
-
 import os
+
+app = Celery("hello")
+
 if not os.getenv('DJANGO_SETTINGS_MODULE'):
     os.environ['DJANGO_SETTINGS_MODULE'] = "meiduo_mall.settings.dev"
 

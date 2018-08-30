@@ -15,6 +15,7 @@ er = logging.getLogger("django")
 
 class SMSCodeView(APIView):
     """发送短信"""
+
     """
     1. 生成和发送短信验证码
     2. 保存短信验证码
@@ -40,7 +41,7 @@ class SMSCodeView(APIView):
         # 保存短信验证码
         pl = redis.pipeline()       # 管道对象，可以在创建管道对象后多次执行redis读取操作后统一提交
         pl.setex("sms_%s" % mobile, constants.SMS_CODE_REDIS_EXPIRES, sms_code)
-        pl.setex("sms_flag_%s" % mobile, constants.SMS_FLAG_REDIS_EXPIRES, constants.SMS_FLAG)
+        pl.setex("sms_flag_%s" % mobile, constants.SMS_FLAG_REDIS_EXPIRES, 1)
         pl.execute()    # 管道对象需手动提交
 
         return Response({"message": "发送成功"})
