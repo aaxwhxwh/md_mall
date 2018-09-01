@@ -6,6 +6,7 @@ from rest_framework.views import APIView
 
 # from utils.exceptons import logger
 from meiduo_mall.utils.exceptons import logger
+from users.models import Users
 from . import constants
 from celery_tasks.sms.tasks import send_sms_code
 
@@ -45,3 +46,20 @@ class SMSCodeView(APIView):
         pl.execute()    # 管道对象需手动提交
 
         return Response({"message": "发送成功"})
+
+
+class MobileCountView(APIView):
+    """验证手机号是否已注册"""
+
+    def get(self, request, mobile):
+        try:
+            count = Users.objects.filter(mobile=mobile).count()
+        except Exception as e:
+            logger.error()
+            return Response()
+
+        data = {
+            "mobile": mobile,
+            "count": count
+        }
+        return Response(data)
