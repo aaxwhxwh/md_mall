@@ -69,6 +69,7 @@ class CreateUserSerializer(serializers.ModelSerializer):
         password2 = attrs.get('password2')
         if password != password2:
             raise serializers.ValidationError("两次密码输入不一致")
+
         # 判断短信验证码是否正确
         mobile = attrs.get('mobile')
         sms_code = attrs.get('sms_code')

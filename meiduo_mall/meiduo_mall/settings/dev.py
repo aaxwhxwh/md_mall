@@ -36,8 +36,9 @@ CORS_ORIGIN_WHITELIST = (
     'localhost:8080',
     'www.meiduo.site:8080',
     'api.meiduo.site:8080',
+    'www.moluo.net:8080',
 )
-CORS_ALLOW_CREDENTINAL = True
+CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
 
@@ -54,6 +55,7 @@ INSTALLED_APPS = [
 
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
+    'oauth.apps.OauthConfig',
 
 ]
 
@@ -223,4 +225,14 @@ REST_FRAMEWORK = {
 
 JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'users.utils.jwt_response_payload_handler',
 }
+
+AUTHENTICATION_BACKEND = {
+    'users.utils.UsernameMobileAuthBackend'
+}
+
+# QQ登陆配置信息
+QQ_CLIENT_ID = '101403367'
+QQ_CLIENT_SECRET = '93112df14c10d6fde74baa62f5de95ab'
+QQ_REDIRECT_URL = 'http://www.moluo.net:8080/oauth_callback.html'

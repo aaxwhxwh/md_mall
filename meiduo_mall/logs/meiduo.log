@@ -94,3 +94,481 @@ INFO 2018-09-01 17:24:22,042 basehttp 124 "OPTIONS /users/ HTTP/1.1" 200 0
 WARNING 2018-09-01 17:24:22,043 basehttp 124 "GET /mobiles/13312345679/count/ HTTP/1.1" 404 2746
 WARNING 2018-09-01 17:24:22,044 basehttp 124 "GET /usernames/meiduo1/count/ HTTP/1.1" 404 2740
 INFO 2018-09-01 17:24:22,112 basehttp 124 "POST /users/ HTTP/1.1" 201 227
+WARNING 2018-09-02 09:14:22,713 base 152 Not Found: /
+WARNING 2018-09-02 09:14:22,719 basehttp 124 "GET / HTTP/1.1" 404 2814
+INFO 2018-09-02 09:14:30,819 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+INFO 2018-09-02 09:14:30,886 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1652
+INFO 2018-09-02 09:14:30,920 basehttp 124 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:30,921 basehttp 124 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:34,798 basehttp 124 "GET /authorizations HTTP/1.1" 301 0
+WARNING 2018-09-02 09:14:34,851 basehttp 124 "GET /authorizations/ HTTP/1.1" 405 7589
+INFO 2018-09-02 09:14:34,892 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:34,893 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:34,895 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:34,899 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:34,899 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:34,900 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:34,904 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:34,908 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:34,909 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:34,911 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:34,997 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2018-09-02 09:14:40,350 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 7790
+WARNING 2018-09-02 09:45:11,315 base 152 Not Found: /
+WARNING 2018-09-02 09:45:11,316 basehttp 124 "GET / HTTP/1.1" 404 2814
+INFO 2018-09-02 09:45:16,272 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+INFO 2018-09-02 09:45:16,381 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1652
+WARNING 2018-09-02 09:45:18,999 basehttp 124 "GET /authorizations/ HTTP/1.1" 405 7589
+WARNING 2018-09-02 09:45:25,170 basehttp 124 "GET /users/ HTTP/1.1" 405 8619
+INFO 2018-09-02 10:02:24,223 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:02:25,591 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:02:26,964 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:02:27,167 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:02:27,617 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:02:27,786 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:02:27,976 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:03:09,897 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:03:11,414 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:03:12,067 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:03:12,246 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:03:12,437 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:03:12,628 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:03:28,033 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+WARNING 2018-09-02 10:05:20,023 base 152 Not Found: /authrization/
+WARNING 2018-09-02 10:05:20,024 basehttp 124 "GET /authrization/ HTTP/1.1" 404 2871
+WARNING 2018-09-02 10:05:28,580 basehttp 124 "GET /authorizations/ HTTP/1.1" 405 7589
+INFO 2018-09-02 10:05:36,359 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 7790
+INFO 2018-09-02 10:12:52,303 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:12:54,078 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+WARNING 2018-09-02 10:15:08,176 base 152 Not Found: /oauth/qq/user/
+WARNING 2018-09-02 10:15:08,176 basehttp 124 "GET /oauth/qq/user/?code=null HTTP/1.1" 404 2884
+WARNING 2018-09-02 10:32:51,601 base 152 Not Found: /oauth/qq/authorization/
+WARNING 2018-09-02 10:32:51,603 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 404 2908
+INFO 2018-09-02 10:43:27,695 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:46:40,889 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 7790
+INFO 2018-09-02 10:51:33,767 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:55:41,625 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 10:55:45,148 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 11:00:59,274 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 11:01:38,294 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 11:02:57,970 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-02 11:02:58,028 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 219
+WARNING 2018-09-02 15:11:52,592 base 152 Not Found: /
+WARNING 2018-09-02 15:11:52,596 basehttp 124 "GET / HTTP/1.1" 404 3149
+WARNING 2018-09-02 15:11:58,948 basehttp 124 "GET /authorizations/ HTTP/1.1" 405 7589
+WARNING 2018-09-02 15:12:31,584 basehttp 124 "GET /oauth/qq/authorizations/ HTTP/1.1" 405 7634
+WARNING 2018-09-02 15:18:15,925 basehttp 124 "GET /oauth/qq/authorizations/?next=www.meiduo.site:8080/oauth_callback.html HTTP/1.1" 405 7818
+WARNING 2018-09-02 15:22:37,913 basehttp 124 "GET /oauth/qq/authorizations/ HTTP/1.1" 405 7634
+ERROR 2018-09-02 15:23:55,278 exception 135 Internal Server Error: /oauth/qq/authorization/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/request.py", line 411, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'query_parms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 18, in get
+    next = request.query_parms.get('next', '/')
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/request.py", line 413, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'query_parms'
+ERROR 2018-09-02 15:23:55,601 basehttp 124 "GET /oauth/qq/authorization/ HTTP/1.1" 500 98783
+ERROR 2018-09-02 15:24:07,431 exception 135 Internal Server Error: /oauth/qq/authorization/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/request.py", line 411, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'query_parms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 18, in get
+    next = request.query_parms.get('next', '/')
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/request.py", line 413, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'query_parms'
+ERROR 2018-09-02 15:24:07,561 basehttp 124 "GET /oauth/qq/authorization/ HTTP/1.1" 500 97171
+ERROR 2018-09-02 15:24:50,919 exception 135 Internal Server Error: /oauth/qq/authorization/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/request.py", line 411, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'query_parms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 18, in get
+    next = request.query_parms.get('next', '/')
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/request.py", line 413, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'query_parms'
+ERROR 2018-09-02 15:24:51,001 basehttp 124 "GET /oauth/qq/authorization/ HTTP/1.1" 500 97171
+ERROR 2018-09-02 15:25:56,670 exception 135 Internal Server Error: /oauth/qq/authorization/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 22, in get
+    client_secret=settings.QQ_CLINET_SECRET,
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/conf/__init__.py", line 57, in __getattr__
+    val = getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'QQ_CLINET_SECRET'
+ERROR 2018-09-02 15:25:56,761 basehttp 124 "GET /oauth/qq/authorization/ HTTP/1.1" 500 93282
+ERROR 2018-09-02 15:27:03,066 exception 135 Internal Server Error: /oauth/qq/authorization/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 24, in get
+    next=next
+TypeError: __init__() got an unexpected keyword argument 'next'
+ERROR 2018-09-02 15:27:03,168 basehttp 124 "GET /oauth/qq/authorization/ HTTP/1.1" 500 89432
+INFO 2018-09-02 15:28:37,022 basehttp 124 "GET /oauth/qq/authorization/ HTTP/1.1" 200 5571
+WARNING 2018-09-02 15:31:40,731 base 152 Not Found: /
+WARNING 2018-09-02 15:31:40,735 basehttp 124 "GET / HTTP/1.1" 404 3149
+INFO 2018-09-02 15:31:55,011 basehttp 124 "GET /oauth/qq/authorization/ HTTP/1.1" 200 5571
+WARNING 2018-09-02 15:32:19,888 base 152 Not Found: /
+WARNING 2018-09-02 15:32:19,890 basehttp 124 "GET / HTTP/1.1" 404 3149
+WARNING 2018-09-02 15:32:29,250 base 152 Not Found: /
+WARNING 2018-09-02 15:32:29,252 basehttp 124 "GET / HTTP/1.1" 404 3149
+ERROR 2018-09-02 15:32:55,245 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/request.py", line 411, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'query_parms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 35, in get
+    code = request.query_parms.get('code')
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/request.py", line 413, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'query_parms'
+ERROR 2018-09-02 15:32:55,339 basehttp 124 "GET /oauth/qq/user/?code=B942B594B0F98A0ACDFE5BD151572A91 HTTP/1.1" 500 97492
+ERROR 2018-09-02 15:33:13,350 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 41, in get
+    client_secret=settings.QQ_CLINET_SECRET,
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/conf/__init__.py", line 57, in __getattr__
+    val = getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'QQ_CLINET_SECRET'
+ERROR 2018-09-02 15:33:13,437 basehttp 124 "GET /oauth/qq/user/?code=B942B594B0F98A0ACDFE5BD151572A91 HTTP/1.1" 500 93796
+INFO 2018-09-02 15:33:29,844 basehttp 124 "GET /oauth/qq/user/?code=B942B594B0F98A0ACDFE5BD151572A91 HTTP/1.1" 200 5528
+ERROR 2018-09-02 15:39:47,060 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 46, in get
+    access_token = oauth.get_access_token(code)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/QQLoginTool/QQtool.py", line 63, in get_access_token
+    raise Exception('access_token获取失败')
+Exception: access_token获取失败
+ERROR 2018-09-02 15:39:47,169 basehttp 124 "GET /oauth/qq/user/?code=B942B594B0F98A0ACDFE5BD151572A91 HTTP/1.1" 500 95001
+INFO 2018-09-02 15:39:56,355 basehttp 124 "GET /oauth/qq/authorization/ HTTP/1.1" 200 5571
+INFO 2018-09-02 15:40:05,692 basehttp 124 "GET /oauth/qq/user/?code=9934D0CB2C0CD83EA86B11B0D3CFD63A HTTP/1.1" 200 190
+WARNING 2018-09-02 15:40:40,422 base 152 Not Found: /
+WARNING 2018-09-02 15:40:40,423 basehttp 124 "GET / HTTP/1.1" 404 3149
+ERROR 2018-09-02 15:40:58,602 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 46, in get
+    access_token = oauth.get_access_token(code)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/QQLoginTool/QQtool.py", line 63, in get_access_token
+    raise Exception('access_token获取失败')
+Exception: access_token获取失败
+ERROR 2018-09-02 15:40:58,660 basehttp 124 "GET /oauth/qq/user/?code=9934D0CB2C0CD83EA86B11B0D3CFD63A HTTP/1.1" 500 94866
+ERROR 2018-09-02 15:42:05,321 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 46, in get
+    access_token = oauth.get_access_token(code)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/QQLoginTool/QQtool.py", line 63, in get_access_token
+    raise Exception('access_token获取失败')
+Exception: access_token获取失败
+ERROR 2018-09-02 15:42:05,384 basehttp 124 "GET /oauth/qq/user/?code=9934D0CB2C0CD83EA86B11B0D3CFD63A HTTP/1.1" 500 95001
+ERROR 2018-09-02 15:42:53,947 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 46, in get
+    access_token = oauth.get_access_token(code)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/QQLoginTool/QQtool.py", line 63, in get_access_token
+    raise Exception('access_token获取失败')
+Exception: access_token获取失败
+ERROR 2018-09-02 15:42:54,032 basehttp 124 "GET /oauth/qq/user/?code=9934D0CB2C0CD83EA86B11B0D3CFD63A HTTP/1.1" 500 95001
+INFO 2018-09-02 15:43:08,685 basehttp 124 "GET /oauth/qq/authorization/ HTTP/1.1" 200 5571
+INFO 2018-09-02 15:43:21,099 basehttp 124 "GET /oauth/qq/user/?code=F020ABD79BE33B086C9D6EA10C07B07D HTTP/1.1" 200 190
+ERROR 2018-09-02 15:43:27,736 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 46, in get
+    access_token = oauth.get_access_token(code)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/QQLoginTool/QQtool.py", line 63, in get_access_token
+    raise Exception('access_token获取失败')
+Exception: access_token获取失败
+ERROR 2018-09-02 15:43:27,790 basehttp 124 "GET /oauth/qq/user/?code=F020ABD79BE33B086C9D6EA10C07B07D HTTP/1.1" 500 94866
+INFO 2018-09-02 15:50:21,540 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+INFO 2018-09-02 15:50:29,046 basehttp 124 "GET /oauth/qq/user/?code=493EC83308DA7C73E61CA42C5BDD8866 HTTP/1.1" 200 190
+INFO 2018-09-02 15:52:35,245 basehttp 124 "GET /oauth/qq/user/?code=B59FC56F876600627A4018D2A7625615 HTTP/1.1" 200 219
+ERROR 2018-09-02 15:52:44,339 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 44, in get
+    access_token = oauth.get_access_token(code)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/QQLoginTool/QQtool.py", line 63, in get_access_token
+    raise Exception('access_token获取失败')
+Exception: access_token获取失败
+ERROR 2018-09-02 15:52:44,437 basehttp 124 "GET /oauth/qq/user/?code=B59FC56F876600627A4018D2A7625615 HTTP/1.1" 500 94866
+ERROR 2018-09-02 15:52:49,871 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 44, in get
+    access_token = oauth.get_access_token(code)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/QQLoginTool/QQtool.py", line 63, in get_access_token
+    raise Exception('access_token获取失败')
+Exception: access_token获取失败
+ERROR 2018-09-02 15:52:49,924 basehttp 124 "GET /oauth/qq/user/?code=B59FC56F876600627A4018D2A7625615 HTTP/1.1" 500 95002
+INFO 2018-09-02 15:58:13,601 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+INFO 2018-09-02 15:58:20,246 basehttp 124 "GET /oauth/qq/user/?code=EFF570636CF8EF5BB606D2676E2B0885 HTTP/1.1" 200 219
+INFO 2018-09-02 16:00:48,918 basehttp 124 "GET /oauth/qq/user/?code=088BF7CE61C81FCFDB02D961F4C00E3E HTTP/1.1" 200 219
+INFO 2018-09-02 16:02:22,820 basehttp 124 "GET /oauth/qq/user/?code=A0FC08CFA494B3D8B39507663B4A56BB HTTP/1.1" 200 219
+ERROR 2018-09-02 16:07:00,294 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 55, in get
+    print(oauth_user.username)
+AttributeError: 'OauthUser' object has no attribute 'username'
+ERROR 2018-09-02 16:07:00,347 basehttp 124 "GET /oauth/qq/user/?code=3ACFC67784579240C26A5E7E7318FCF1 HTTP/1.1" 500 17434
+INFO 2018-09-02 16:07:33,609 basehttp 124 "GET /oauth/qq/user/?code=56CFAE8CE90D7CC70504BE554EFC3F5D HTTP/1.1" 200 219
+INFO 2018-09-02 16:10:29,199 basehttp 124 "GET /oauth/qq/user/?code=C5141AF21860322E47E128BF1D1F7EDE HTTP/1.1" 200 219
+INFO 2018-09-02 16:11:06,500 basehttp 124 "GET /oauth/qq/user/?code=B802CBC8CA2991ADB639E645BCDA8DCA HTTP/1.1" 200 219
+INFO 2018-09-02 16:11:43,999 basehttp 124 "GET /oauth/qq/user/?code=9E4ECA7FD971B51340BF38924364C7F9 HTTP/1.1" 200 219
+INFO 2018-09-02 16:14:48,080 basehttp 124 "GET /oauth/qq/user/?code=EB15BF5F6393B03C813F29FD8013CB78 HTTP/1.1" 200 219
+INFO 2018-09-02 16:15:13,924 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+INFO 2018-09-02 16:15:22,113 basehttp 124 "GET /oauth/qq/user/?code=D29B59E1C9DEFD9FEFA1787DF24463FB HTTP/1.1" 200 190

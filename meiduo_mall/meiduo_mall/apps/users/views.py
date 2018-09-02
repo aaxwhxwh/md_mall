@@ -18,7 +18,7 @@ class UsernameCountView(APIView):
         try:
             count = Users.objects.filter(username=username).count()
         except Exception as e:
-            logger.error()
+            logger.error('数据库查询失败%s' % username)
             return Response({"message": "数据库查询失败"}, status=status.HTTP_400_BAD_REQUEST)
 
         data = {

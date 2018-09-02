@@ -55,7 +55,7 @@ class MobileCountView(APIView):
         try:
             count = Users.objects.filter(mobile=mobile).count()
         except Exception as e:
-            logger.error()
+            logger.error("数据库查询失败:%s" % mobile)
             return Response()
 
         data = {
