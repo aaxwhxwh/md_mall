@@ -8,7 +8,10 @@
 import re
 
 from django.contrib.auth.backends import ModelBackend
+from itsdangerous import TimedJSONWebSignatureSerializer as Serializer, BadData
+from django.conf import settings
 
+from users import constants
 from users.models import Users
 
 
@@ -53,3 +56,25 @@ class UsernameMobileAuthBackend(ModelBackend):
         user = get_user_by_account(username)
         if user and user.check_password(password):
             return user
+
+
+def generate_save_user_token(user):
+    serializer = Serializer(settings.SECRET_KEY, constants.EMAIL_VERIFY_TOKEN_EXPIRE)
+    data = {"user_id": user.id}
+    token = serializer.dumps(data)
+    token = token.decode()
+
+    verify_url = settings.VERIFY_EMAIL_HTML + "?token=" + token
+
+    return verify_url
+
+
+def get_save_user_token(token):
+    serializer = Serializer(settings.SECRET_KEY, constants.EMAIL_VERIFY_TOKEN_EXPIRE)
+    try:
+        data = serializer.loads(token)
+    except BadData:
+        return None
+    else:
+        return data['user_id']
+

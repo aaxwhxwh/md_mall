@@ -2,10 +2,13 @@ from django.shortcuts import render
 from QQLoginTool.QQtool import OAuthQQ
 # Create your views here.
 from rest_framework import status
+from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.conf import settings
 from rest_framework_jwt.settings import api_settings
+
+from oauth.serializers import QQOauthSerializer
 from oauth.utils import generate_save_user_token
 
 from oauth.models import OauthUser
@@ -26,7 +29,8 @@ class QQAuthURLView(APIView):
         return Response({"login_url": login_url})
 
 
-class QQAuthUserView(APIView):
+class QQAuthUserView(GenericAPIView):
+    serializer_class = QQOauthSerializer
 
     def get(self, request):
         # 获取code
@@ -42,14 +46,13 @@ class QQAuthUserView(APIView):
         )
         # 获取access_token
         access_token = oauth.get_access_token(code)
-
         # 获取openid
         openId = oauth.get_open_id(access_token)
+        print(openId)
 
         # 根据openId到数据库查询是否有绑定用户
         try:
             oauth_user = OauthUser.objects.get(openid=openId)
-            print(oauth_user.user.email)
         except OauthUser.DoesNotExist:
             access_token = generate_save_user_token(openId)
             return Response({
@@ -70,3 +73,20 @@ class QQAuthUserView(APIView):
                 "username": user.username
             }
             return Response(data)
+
+    def post(self, request):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user = serializer.save()
+
+        # 补充生成记录登录状态的token
+        jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
+        jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
+        payload = jwt_payload_handler(user)
+        token = jwt_encode_handler(payload)
+
+        return Response({
+            "token": token,
+            "user_id": user.id,
+            "username": user.username
+        })

@@ -29,7 +29,11 @@ SECRET_KEY = '&%a0wsv!ge^whhz@gq)#r&%+q=i-kt_o_!@*^l5d%ykpcz@$ms'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'www.meiduo.site',
+    'api.meiduo.site',
+    '127.0.0.1',
+]
 
 CORS_ORIGIN_WHITELIST = (
     '127.0.0.1:8080',
@@ -236,3 +240,20 @@ AUTHENTICATION_BACKEND = {
 QQ_CLIENT_ID = '101403367'
 QQ_CLIENT_SECRET = '93112df14c10d6fde74baa62f5de95ab'
 QQ_REDIRECT_URL = 'http://www.moluo.net:8080/oauth_callback.html'
+
+# 发送邮件配置信息
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# 开启ssl加密
+EMAIL_USE_SSL = True
+# smtp服务器地址
+EMAIL_HOST = 'smtp.qq.com'
+# smtp服务器端口
+EMAIL_PORT = 465
+# 发送邮件的邮箱
+EMAIL_HOST_USER = '332055751@qq.com'
+# 在邮箱中设置的客户端授权密码
+EMAIL_HOST_PASSWORD = 'sdmunfhcztvsbjjb'
+# 收件人看到的发件人
+EMAIL_FROM = '美多商城<332055751@qq.com>'
+# 邮箱激活页面地址
+VERIFY_EMAIL_HTML = "http://www.meiduo.site:8080/success_verify_email.html"

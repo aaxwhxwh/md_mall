@@ -10,6 +10,8 @@ import re
 from rest_framework import serializers
 from django_redis import get_redis_connection
 from rest_framework_jwt.settings import api_settings
+from users.utils import generate_save_user_token
+from celery_tasks.mail.tasks import send_verify_email
 
 from users.models import Users
 
@@ -103,3 +105,29 @@ class CreateUserSerializer(serializers.ModelSerializer):
         user.token = token
 
         return user
+
+
+class EmailSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Users
+        fields = ['id', 'email']
+        extra_kwargs = {
+            'email': {
+                'required': True
+            }
+        }
+
+    def update(self, instance, validated_data):
+        # 保存邮箱地址
+        instance.email = validated_data["email"]
+        instance.save()
+
+        # 生成邮箱验证链接
+        verify_url = generate_save_user_token(instance)
+
+        # 调用异步方法
+        send_verify_email.delay(instance.email, verify_url)
+
+        return instance
+

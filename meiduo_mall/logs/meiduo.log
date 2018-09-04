@@ -572,3 +572,397 @@ INFO 2018-09-02 16:11:43,999 basehttp 124 "GET /oauth/qq/user/?code=9E4ECA7FD971
 INFO 2018-09-02 16:14:48,080 basehttp 124 "GET /oauth/qq/user/?code=EB15BF5F6393B03C813F29FD8013CB78 HTTP/1.1" 200 219
 INFO 2018-09-02 16:15:13,924 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
 INFO 2018-09-02 16:15:22,113 basehttp 124 "GET /oauth/qq/user/?code=D29B59E1C9DEFD9FEFA1787DF24463FB HTTP/1.1" 200 190
+INFO 2018-09-04 10:53:57,723 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-04 10:53:57,791 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 219
+INFO 2018-09-04 10:53:59,779 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+WARNING 2018-09-04 10:53:59,924 base 152 Not Found: /user/
+WARNING 2018-09-04 10:53:59,929 basehttp 124 "GET /user/ HTTP/1.1" 404 3182
+INFO 2018-09-04 10:55:14,738 basehttp 124 "GET /user/ HTTP/1.1" 200 55
+INFO 2018-09-04 10:55:14,767 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-04 10:55:14,848 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 10:55:14,850 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3372
+INFO 2018-09-04 10:55:51,547 basehttp 124 "GET /user/ HTTP/1.1" 200 55
+WARNING 2018-09-04 10:55:51,605 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 10:55:51,606 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3372
+INFO 2018-09-04 10:56:25,304 basehttp 124 "GET /user/ HTTP/1.1" 200 75
+WARNING 2018-09-04 10:56:25,342 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 10:56:25,343 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3372
+INFO 2018-09-04 10:56:59,628 basehttp 124 "GET /user/ HTTP/1.1" 200 86
+WARNING 2018-09-04 10:56:59,776 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 10:56:59,776 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3372
+INFO 2018-09-04 15:13:06,926 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+WARNING 2018-09-04 15:13:17,571 basehttp 124 "GET /oauth/qq/user/?code=58151702DA43A0E27D2419EFBE6B70BE HTTP/1.1" 401 43
+INFO 2018-09-04 15:14:13,515 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+WARNING 2018-09-04 15:14:20,377 basehttp 124 "GET /oauth/qq/user/?code=BE611E2E80CD1D05B4EB4D0F275E298D HTTP/1.1" 401 43
+WARNING 2018-09-04 15:18:09,406 basehttp 124 "GET /oauth/qq/user/?code=B0FD057F921BD49D7AFBFCAFCC922529 HTTP/1.1" 401 43
+WARNING 2018-09-04 15:19:48,563 basehttp 124 "GET /oauth/qq/user/?code=8ED81F88BF7210BFC112DDA314D182D5 HTTP/1.1" 401 43
+WARNING 2018-09-04 15:24:50,231 basehttp 124 "GET /oauth/qq/user/?code=38EA415C46569AC6461E67D7887DFF54 HTTP/1.1" 401 43
+WARNING 2018-09-04 15:25:59,274 base 152 Not Found: /
+WARNING 2018-09-04 15:25:59,277 basehttp 124 "GET / HTTP/1.1" 404 3627
+WARNING 2018-09-04 15:26:10,142 basehttp 124 "GET /oauth/qq/user/?code=38EA415C46569AC6461E67D7887DFF54 HTTP/1.1" 401 9546
+INFO 2018-09-04 15:26:10,189 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2018-09-04 15:26:10,191 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2018-09-04 15:26:10,193 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2018-09-04 15:26:10,197 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2018-09-04 15:26:10,204 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+INFO 2018-09-04 15:26:10,206 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2018-09-04 15:26:10,209 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2018-09-04 15:26:10,213 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2018-09-04 15:26:10,216 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2018-09-04 15:26:10,217 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2018-09-04 15:26:10,227 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2018-09-04 15:26:27,729 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+WARNING 2018-09-04 15:27:20,741 basehttp 124 "GET /oauth/qq/user/?code=D2AAEDDD9343F4CF225861D01747FDF6 HTTP/1.1" 401 43
+INFO 2018-09-04 15:31:53,053 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+WARNING 2018-09-04 15:31:59,552 basehttp 124 "GET /oauth/qq/user/?code=5FA51EAD076D080A895DF5B395498016 HTTP/1.1" 401 43
+WARNING 2018-09-04 15:33:05,339 basehttp 124 "GET /oauth/qq/user/?code=5400ED8ABFC06230D55D83488CB55855 HTTP/1.1" 401 43
+INFO 2018-09-04 15:35:40,527 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+WARNING 2018-09-04 15:35:47,238 basehttp 124 "GET /oauth/qq/user/?code=870E23D86679F89ED4361B93C63227F9 HTTP/1.1" 401 43
+WARNING 2018-09-04 15:37:37,041 basehttp 124 "GET /oauth/qq/user/?code=14935A271C1B755389EB353E444F8026 HTTP/1.1" 401 43
+WARNING 2018-09-04 15:38:53,377 basehttp 124 "GET /oauth/qq/user/?code=F4178D5F2D124CC9BE5E7BCC1CE7D1F1 HTTP/1.1" 401 43
+INFO 2018-09-04 15:39:31,534 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+WARNING 2018-09-04 15:39:46,438 basehttp 124 "GET /oauth/qq/user/?code=146E7020DC977720A636DE2BFCACAB3D HTTP/1.1" 401 43
+WARNING 2018-09-04 15:40:11,008 basehttp 124 "GET /oauth/qq/user/?code=CB4D8FB1C9E986A6654AB60E147653E7 HTTP/1.1" 401 43
+WARNING 2018-09-04 15:41:09,273 basehttp 124 "GET /oauth/qq/user/?code=CB4D8FB1C9E986A6654AB60E147653E7 HTTP/1.1" 401 9546
+WARNING 2018-09-04 15:45:52,362 basehttp 124 "GET /oauth/qq/user/?code=191AB3459FF74DC9C1701C763DB08C78 HTTP/1.1" 401 43
+INFO 2018-09-04 15:58:23,279 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+WARNING 2018-09-04 15:58:30,447 basehttp 124 "GET /oauth/qq/user/?code=DFB64B501A203CAE1571FB424C617D67 HTTP/1.1" 401 43
+WARNING 2018-09-04 15:58:46,847 basehttp 124 "GET /oauth/qq/user/?code=8353B5636E08FF466E6A326E0CE7B694 HTTP/1.1" 401 43
+INFO 2018-09-04 16:04:09,989 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+WARNING 2018-09-04 16:04:18,053 basehttp 124 "GET /oauth/qq/user/?code=1BFA3D2D784DF5D7D347B4EC0DF41950 HTTP/1.1" 401 43
+INFO 2018-09-04 16:41:26,118 basehttp 124 "GET /oauth/qq/user/?code=F8315BB625ED96950B01B4B57F3746F9 HTTP/1.1" 200 190
+INFO 2018-09-04 16:41:39,667 basehttp 124 "GET /sms_codes/13312345678/ HTTP/1.1" 200 26
+INFO 2018-09-04 16:42:09,073 basehttp 124 "OPTIONS /oauth/qq/user/ HTTP/1.1" 200 0
+ERROR 2018-09-04 16:42:09,083 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 79, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 434, in run_validation
+    value = self.to_internal_value(data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 482, in to_internal_value
+    fields = self._writable_fields
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 370, in _writable_fields
+    field for field in self.fields.values() if not field.read_only
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 997, in get_fields
+    serializer_class=self.__class__.__name__
+AssertionError: Class QQOauthSerializer missing "Meta" attribute
+ERROR 2018-09-04 16:42:09,151 basehttp 124 "POST /oauth/qq/user/ HTTP/1.1" 500 18509
+ERROR 2018-09-04 16:45:14,253 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 79, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 434, in run_validation
+    value = self.to_internal_value(data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 482, in to_internal_value
+    fields = self._writable_fields
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 370, in _writable_fields
+    field for field in self.fields.values() if not field.read_only
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 997, in get_fields
+    serializer_class=self.__class__.__name__
+AssertionError: Class QQOauthSerializer missing "Meta" attribute
+ERROR 2018-09-04 16:45:14,314 basehttp 124 "POST /oauth/qq/user/ HTTP/1.1" 500 18509
+ERROR 2018-09-04 16:45:15,691 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 79, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 434, in run_validation
+    value = self.to_internal_value(data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 482, in to_internal_value
+    fields = self._writable_fields
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 370, in _writable_fields
+    field for field in self.fields.values() if not field.read_only
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 997, in get_fields
+    serializer_class=self.__class__.__name__
+AssertionError: Class QQOauthSerializer missing "Meta" attribute
+ERROR 2018-09-04 16:45:15,715 basehttp 124 "POST /oauth/qq/user/ HTTP/1.1" 500 18509
+ERROR 2018-09-04 16:46:20,044 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 91, in post
+    "username": user.name
+AttributeError: 'Users' object has no attribute 'name'
+ERROR 2018-09-04 16:46:20,093 basehttp 124 "POST /oauth/qq/user/ HTTP/1.1" 500 17220
+WARNING 2018-09-04 16:46:38,717 basehttp 124 "POST /oauth/qq/user/ HTTP/1.1" 400 49
+INFO 2018-09-04 16:47:07,431 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+INFO 2018-09-04 16:47:16,720 basehttp 124 "GET /oauth/qq/user/?code=EEBED79BA599BE2400499B741E589237 HTTP/1.1" 200 228
+INFO 2018-09-04 16:47:52,550 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-04 16:47:52,691 basehttp 124 "GET /user/ HTTP/1.1" 200 99
+INFO 2018-09-04 16:47:52,743 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-04 16:47:52,820 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 16:47:52,821 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3697
+INFO 2018-09-04 16:47:56,254 basehttp 124 "OPTIONS /email/ HTTP/1.1" 200 0
+ERROR 2018-09-04 16:47:56,271 exception 135 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/generics.py", line 228, in put
+    return self.update(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py", line 70, in update
+    self.perform_update(serializer)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py", line 80, in perform_update
+    serializer.save()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 209, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/serializers.py", line 124, in update
+    instance.is_valid(raise_exception=True)
+AttributeError: 'Users' object has no attribute 'is_valid'
+ERROR 2018-09-04 16:47:56,327 basehttp 124 "PUT /email/ HTTP/1.1" 500 18017
+INFO 2018-09-04 16:50:08,997 basehttp 124 "GET /user/ HTTP/1.1" 200 99
+WARNING 2018-09-04 16:50:09,067 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 16:50:09,069 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3697
+INFO 2018-09-04 16:50:20,623 basehttp 124 "PUT /email/ HTTP/1.1" 200 35
+INFO 2018-09-04 16:51:57,339 basehttp 124 "GET /user/ HTTP/1.1" 200 99
+WARNING 2018-09-04 16:51:57,423 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 16:51:57,425 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3697
+INFO 2018-09-04 16:51:58,528 basehttp 124 "PUT /email/ HTTP/1.1" 200 35
+INFO 2018-09-04 16:54:16,855 basehttp 124 "GET /user/ HTTP/1.1" 200 99
+WARNING 2018-09-04 16:54:16,957 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 16:54:16,959 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3697
+INFO 2018-09-04 16:54:18,084 basehttp 124 "PUT /email/ HTTP/1.1" 200 35
+INFO 2018-09-04 16:54:33,772 basehttp 124 "GET /user/ HTTP/1.1" 200 99
+WARNING 2018-09-04 16:54:33,840 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 16:54:33,841 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3697
+INFO 2018-09-04 16:54:34,651 basehttp 124 "PUT /email/ HTTP/1.1" 200 35
+WARNING 2018-09-04 16:55:54,464 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 405 45
+ERROR 2018-09-04 17:02:50,895 exception 135 Internal Server Error: /emails/verification/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 70, in get
+    user_id = get_save_user_token(token)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/utils.py", line 75, in get_save_user_token
+    data = Serializer.loads(token)
+TypeError: loads() missing 1 required positional argument: 's'
+ERROR 2018-09-04 17:02:51,096 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 500 17877
+ERROR 2018-09-04 17:04:16,007 exception 135 Internal Server Error: /emails/verification/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 70, in get
+    user_id = get_save_user_token(token)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/utils.py", line 75, in get_save_user_token
+    data = Serializer.loads(token)
+TypeError: loads() missing 1 required positional argument: 's'
+ERROR 2018-09-04 17:04:16,075 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 500 17877
+ERROR 2018-09-04 17:05:33,378 exception 135 Internal Server Error: /emails/verification/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 70, in get
+    user_id = get_save_user_token(token)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/utils.py", line 76, in get_save_user_token
+    data = Serializer.loads(token)
+TypeError: loads() missing 1 required positional argument: 's'
+ERROR 2018-09-04 17:05:33,479 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 500 17877
+ERROR 2018-09-04 17:06:03,996 exception 135 Internal Server Error: /emails/verification/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'users.models.Users'>`
+ERROR 2018-09-04 17:06:04,105 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 500 83015
+ERROR 2018-09-04 17:07:47,945 exception 135 Internal Server Error: /emails/verification/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-04 17:07:48,127 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 500 82941
+INFO 2018-09-04 17:08:57,343 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 32
+INFO 2018-09-04 17:14:29,883 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 32
+WARNING 2018-09-04 17:17:49,501 base 152 Not Found: /
+WARNING 2018-09-04 17:17:49,502 basehttp 124 "GET / HTTP/1.1" 404 3634
+WARNING 2018-09-04 17:17:50,045 base 152 Not Found: /favicon.ico
+WARNING 2018-09-04 17:17:50,046 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3685
+WARNING 2018-09-04 17:24:47,491 base 152 Not Found: /
+WARNING 2018-09-04 17:24:47,491 basehttp 124 "GET / HTTP/1.1" 404 3634
+INFO 2018-09-04 17:24:54,772 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 10302
+INFO 2018-09-04 17:24:54,798 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2018-09-04 17:24:54,817 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2018-09-04 17:24:54,824 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2018-09-04 17:24:54,838 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2018-09-04 17:24:54,839 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2018-09-04 17:24:54,845 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2018-09-04 17:24:54,849 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+INFO 2018-09-04 17:24:54,850 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2018-09-04 17:24:54,852 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2018-09-04 17:24:54,856 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2018-09-04 17:24:54,895 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2018-09-04 17:27:23,683 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-04 17:27:23,750 basehttp 124 "GET /user/ HTTP/1.1" 200 98
+INFO 2018-09-04 17:27:23,766 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-04 17:27:23,778 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 17:27:23,778 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3697
+INFO 2018-09-04 17:28:14,010 basehttp 124 "GET /user/ HTTP/1.1" 200 98
+WARNING 2018-09-04 17:28:14,079 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 17:28:14,080 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3697
+INFO 2018-09-04 17:28:23,694 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-04 17:28:23,737 basehttp 124 "GET /user/ HTTP/1.1" 200 98
+INFO 2018-09-04 17:28:23,748 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-04 17:28:23,757 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 17:28:23,758 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3703
+INFO 2018-09-04 18:10:18,818 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 32
+INFO 2018-09-04 18:14:45,381 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 32
+INFO 2018-09-04 18:14:59,056 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 32
+INFO 2018-09-04 18:17:47,158 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 32
+INFO 2018-09-04 18:31:45,221 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 32
+INFO 2018-09-04 18:33:46,296 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 32

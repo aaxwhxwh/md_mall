@@ -14,4 +14,7 @@ urlpatterns = [
     url(r'^usernames/(?P<username>\w{5, 20})/count/$', views.UsernameCountView.as_view()),
     url(r'users/$', views.CreateUser.as_view()),
     url(r'authorizations/$', obtain_jwt_token),
+    url(r'^user/$', views.UserDetailView.as_view()),
+    url(r'email/$', views.SendEmailView.as_view()),
+    url(r'emails/verification/$', views.VerifyEmailView.as_view()),
 ]

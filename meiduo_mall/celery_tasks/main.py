@@ -8,13 +8,14 @@
 from celery import Celery
 import os
 
-app = Celery("meiduo")
 
 if not os.getenv('DJANGO_SETTINGS_MODULE'):
     os.environ['DJANGO_SETTINGS_MODULE'] = "meiduo_mall.settings.dev"
+
+app = Celery("meiduo")
 
 # 加载配置
 app.config_from_object("celery_tasks.config")
 
 # 声明获取异步任务的队列[目录中必须有一个tasks.py]
-app.autodiscover_tasks(['celery_tasks.sms'])
+app.autodiscover_tasks(['celery_tasks.sms', 'celery_tasks.mail'])
