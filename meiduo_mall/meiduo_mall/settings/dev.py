@@ -56,11 +56,15 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'corsheaders',
+    'ckeditor',
+    'ckeditor_uploader',
 
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
     'oauth.apps.OauthConfig',
-
+    'areas.apps.AreasConfig',
+    'contents.apps.ContentsConfig',
+    'goods.apps.GoodsConfig',
 ]
 
 MIDDLEWARE = [
@@ -225,6 +229,12 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.BasicAuthentication',
     ),
+    # 'DEFAULT_PAGINATION_CLASS':
+}
+
+REST_FRAMEWORK_EXTENSIONS = {
+    'DEFAULT_CACHE_RESPONSE_TIMEOUT': 60 * 60,
+    'DEFAULT_USE_CACHE': 'default',
 }
 
 JWT_AUTH = {
@@ -257,3 +267,20 @@ EMAIL_HOST_PASSWORD = 'sdmunfhcztvsbjjb'
 EMAIL_FROM = '美多商城<332055751@qq.com>'
 # 邮箱激活页面地址
 VERIFY_EMAIL_HTML = "http://www.meiduo.site:8080/success_verify_email.html"
+
+# django文件存储
+DEFAULT_FILE_STORAGE = 'meiduo_mall.utils.fastdfs.fdfs_storage.FastDFSStorage'
+
+# FastDFS
+FDFS_URL = 'http://149.28.153.156:8888/'
+FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fastdfs/client.conf')
+
+# 富文本编辑器ckeditor配置
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',  # 工具条功能
+        'height': 300,  # 编辑器高度
+        # 'width': 300,  # 编辑器宽
+    },
+}
+CKEDITOR_UPLOAD_PATH = ''  # 上传图片保存路径，使用了FastDFS，所以此处设为''

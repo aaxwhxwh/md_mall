@@ -5,19 +5,20 @@
 	<title>美多商城-用户中心</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/hosts.js"></script>
+    <script type="text/javascript" src="js/vue-2.5.16.js"></script>
+    <script type="text/javascript" src="js/axios-0.18.0.min.js"></script>
 </head>
 <body>
+<div id="app">
 	<div class="header_con">
 		<div class="header">
 			<div class="welcome fl">欢迎来到美多商城!</div>
 			<div class="fr">
-				<div class="login_info fl">
-					欢迎您：<em>张 山</em>
-				</div>
 				<div class="login_btn fl">
-					<a href="login.html">登录</a>
+					欢迎您：<em>{{ username }}</em>
 					<span>|</span>
-					<a href="register.html">注册</a>
+                    <a @click="logout">退出</a>
 				</div>
 				<div class="user_link fl">
 					<span>|</span>
@@ -35,7 +36,7 @@
 		<a href="index.html" class="logo fl"><img src="images/logo.png"></a>
 		<div class="sub_page_name fl">|&nbsp;&nbsp;&nbsp;&nbsp;用户中心</div>
 		<div class="search_con fr mt40">
-			<input type="text" class="input_text fl" name="" placeholder="搜索商品">
+			<input type="text" class="input_text fl" name="q" placeholder="搜索商品">
 			<input type="button" class="input_btn fr" name="" value="搜索">
 		</div>		
 	</div>
@@ -57,17 +58,18 @@
                     <form>
                         <div class="form_group">
                             <label>当前密码：</label>
-                            <input type="password" name="">
+                            <input type="password" v-model="password" @blur="check_opwd" name="opwd">
+                        {{ password}}
                         </div>
                         <div class="form_group">
                             <label>新密码：</label>
-                            <input type="password" name="">
+                            <input type="password" v-model="new_password" @blur="check_pwd" name="pwd">
                         </div>
                         <div class="form_group">
                             <label>确认新密码：</label>
-                            <input type="password" name="">
+                            <input type="password" v-model="new_password2" @blur="check_cpwd" name="pwd2">
                         </div>
-                        <input type="button" name="" value="确 定" class="info_submit">
+                        <input type="button" @click="change_password" name="" value="确 定" class="info_submit">
                     </form>
             </div>
 				</div>
@@ -75,7 +77,7 @@
 		</div>
 		</div>
 	</div>
-
+</div>
 
 
 	<div class="footer">
@@ -91,6 +93,6 @@
 		<p>CopyRight © 2016 北京美多商业股份有限公司 All Rights Reserved</p>
 		<p>电话：010-****888    京ICP备*******8号</p>
 	</div>
-	
+    <script type="text/javascript" src="js/user_center_pass.js"></script>
 </body>
 </html>

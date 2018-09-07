@@ -1,15 +1,19 @@
 from django.shortcuts import render
 
 # Create your views here.
+from rest_framework.decorators import action
 from rest_framework.generics import CreateAPIView, GenericAPIView, UpdateAPIView
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.viewsets import ModelViewSet
 
 from meiduo_mall.utils.exceptons import logger
-from users.models import Users
-from users.serializers import CreateUserSerializer, EmailSerializer
+from users import constants
+from users.models import Users, Address
+from users.serializers import CreateUserSerializer, EmailSerializer, UserAddressSerializer, AddressTitleSerializer, \
+    ChangePasswordSerializer
 from users.utils import get_save_user_token
 
 
@@ -80,3 +84,64 @@ class VerifyEmailView(APIView):
         user.save()
 
         return Response({"message": "邮箱验证成功"}, status=status.HTTP_200_OK)
+
+
+class AddressesViewSet(ModelViewSet):
+    serializer_class = UserAddressSerializer
+    permission_classes = [IsAuthenticated]
+    queryset = Address.objects.filter(is_deleted=False)
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset().all()
+        serializer = self.get_serializer(queryset, many=True)
+        user = self.request.user
+        return Response({
+            'default_address_id': user.default_address_id,
+            'limit': constants.USER_ADDRESS_COUNT_LIMIT,
+            'addresses': serializer.data,
+        })
+
+    def create(self, request, *args, **kwargs):
+        """
+        保存用户地址数据
+        """
+        # 检查用户地址数据数目不能超过上限
+        count = request.user.addresses.count()
+        if count >= constants.USER_ADDRESS_COUNT_LIMIT:
+            return Response({'message': '保存地址数据已达到上限'}, status=status.HTTP_400_BAD_REQUEST)
+
+        return super().create(request, *args, **kwargs)
+
+    def destroy(self, request, *args, **kwargs):
+        address = self.get_object()
+        address.is_deleted = True
+        address.save()
+        return Response({"message": "删除成功"}, status=status.HTTP_200_OK)
+
+    @action(methods=['put'], detail=True)
+    def status(self, request, pk=None):
+        adress = self.get_object()
+        user = self.request.user
+        user.default_address_id = adress
+        user.save()
+        return Response({"message": "设定默认地址成功"}, status=status.HTTP_200_OK)
+
+    @action(methods=['put'], detail=True)
+    def title(self, request, pk=None):
+        query = Address.objects.get(pk=pk)
+        s = AddressTitleSerializer(query, data=request.data)
+        s.is_valid(raise_exception=True)
+        s.save()
+
+        return Response(s.data)
+
+
+class ChangePasswordView(UpdateAPIView):
+    serializer_class = ChangePasswordSerializer
+    permission_classes = [IsAuthenticated]
+
+    def get_object(self, *args, **kwargs):
+        print(123456)
+        print(self.request.data.get('password'))
+        return self.request.user
+

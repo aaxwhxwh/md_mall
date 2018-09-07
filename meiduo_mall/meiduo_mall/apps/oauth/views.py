@@ -48,7 +48,6 @@ class QQAuthUserView(GenericAPIView):
         access_token = oauth.get_access_token(code)
         # 获取openid
         openId = oauth.get_open_id(access_token)
-        print(openId)
 
         # 根据openId到数据库查询是否有绑定用户
         try:

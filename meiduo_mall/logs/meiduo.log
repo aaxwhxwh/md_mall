@@ -966,3 +966,2364 @@ INFO 2018-09-04 18:14:59,056 basehttp 124 "GET /emails/verification/?token=eyJle
 INFO 2018-09-04 18:17:47,158 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 32
 INFO 2018-09-04 18:31:45,221 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 32
 INFO 2018-09-04 18:33:46,296 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYyMjQwNzQsImlhdCI6MTUzNjA1MTI3NCwiYWxnIjoiSFMyNTYifQ.eyJ1c2VyX2lkIjo1fQ.EEQcTyI58QnczWfil7cbmWG0EHSqX6tOankhwpUZnDc HTTP/1.1" 200 32
+INFO 2018-09-04 18:51:14,189 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+INFO 2018-09-04 18:51:33,969 basehttp 124 "GET /oauth/qq/user/?code=EB9976F2DE89E28493DFFB05FAB6622B HTTP/1.1" 200 228
+INFO 2018-09-04 18:51:37,590 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-04 18:51:37,681 basehttp 124 "GET /user/ HTTP/1.1" 200 98
+INFO 2018-09-04 18:51:37,724 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-04 18:51:37,755 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 18:51:37,756 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3703
+INFO 2018-09-04 18:52:08,672 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+INFO 2018-09-04 18:52:16,285 basehttp 124 "GET /oauth/qq/user/?code=E2E6925AD1906F9B79F3EA509465384C HTTP/1.1" 200 228
+INFO 2018-09-04 18:52:18,495 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-04 18:52:18,599 basehttp 124 "GET /user/ HTTP/1.1" 200 99
+INFO 2018-09-04 18:52:18,633 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-04 18:52:18,674 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 18:52:18,675 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3703
+INFO 2018-09-04 18:52:19,628 basehttp 124 "OPTIONS /email/ HTTP/1.1" 200 0
+INFO 2018-09-04 18:52:19,706 basehttp 124 "PUT /email/ HTTP/1.1" 200 35
+INFO 2018-09-04 18:52:55,125 basehttp 124 "GET /emails/verification/?token=eyJhbGciOiJIUzI1NiIsImV4cCI6MTUzNjIzMTEzOSwiaWF0IjoxNTM2MDU4MzM5fQ.eyJ1c2VyX2lkIjo1fQ.PGOrkE6iNP3CP1LvxMyZEsi9mM_hlHmE7vwYhuy8wM4 HTTP/1.1" 200 32
+INFO 2018-09-04 18:53:18,977 basehttp 124 "GET /oauth/qq/authorization/?next=/ HTTP/1.1" 200 173
+INFO 2018-09-04 18:53:29,090 basehttp 124 "GET /oauth/qq/user/?code=33AA5F9D119F2E508C59511171691AA7 HTTP/1.1" 200 228
+INFO 2018-09-04 18:53:31,346 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-04 18:53:31,463 basehttp 124 "GET /user/ HTTP/1.1" 200 98
+INFO 2018-09-04 18:53:31,531 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-04 18:53:31,603 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 18:53:31,604 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3703
+INFO 2018-09-04 20:16:50,713 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-04 20:16:50,773 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 228
+INFO 2018-09-04 20:16:50,968 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-04 20:16:51,087 basehttp 124 "GET /user/ HTTP/1.1" 200 98
+INFO 2018-09-04 20:16:51,109 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-04 20:16:51,138 base 152 Not Found: /browse_histories/
+WARNING 2018-09-04 20:16:51,139 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3703
+INFO 2018-09-05 10:15:14,014 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-05 10:15:14,084 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 228
+INFO 2018-09-05 10:15:16,487 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-05 10:15:16,655 basehttp 124 "GET /user/ HTTP/1.1" 200 98
+INFO 2018-09-05 10:15:16,713 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-05 10:15:16,743 base 152 Not Found: /browse_histories/
+WARNING 2018-09-05 10:15:16,745 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4870
+INFO 2018-09-05 10:15:18,779 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-05 10:15:18,797 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+WARNING 2018-09-05 10:15:18,860 base 152 Not Found: /addresses/
+WARNING 2018-09-05 10:15:18,861 basehttp 124 "GET /addresses/ HTTP/1.1" 404 4849
+ERROR 2018-09-05 10:15:21,741 exception 135 Internal Server Error: /areas/120000/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py", line 58, in retrieve
+    return Response(serializer.data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 1020, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 1121, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'subs' was declared on serializer SubAreaSerializer, but has not been included in the 'fields' option.
+ERROR 2018-09-05 10:15:21,978 basehttp 124 "GET /areas/120000/ HTTP/1.1" 500 18820
+WARNING 2018-09-05 10:16:36,994 base 152 Not Found: /addresses/
+WARNING 2018-09-05 10:16:36,996 basehttp 124 "GET /addresses/ HTTP/1.1" 404 4849
+INFO 2018-09-05 10:16:37,015 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 10:16:42,048 basehttp 124 "GET /areas/120000/ HTTP/1.1" 200 74
+INFO 2018-09-05 10:16:44,868 basehttp 124 "GET /areas/120100/ HTTP/1.1" 200 572
+INFO 2018-09-05 10:16:48,462 basehttp 124 "GET /areas/130000/ HTTP/1.1" 200 464
+INFO 2018-09-05 10:16:50,026 basehttp 124 "GET /areas/130300/ HTTP/1.1" 200 293
+INFO 2018-09-05 10:16:53,321 basehttp 124 "GET /areas/110000/ HTTP/1.1" 200 74
+INFO 2018-09-05 10:16:54,742 basehttp 124 "GET /areas/110100/ HTTP/1.1" 200 575
+INFO 2018-09-05 11:34:56,132 basehttp 124 "GET / HTTP/1.1" 200 9565
+WARNING 2018-09-05 11:34:58,054 basehttp 124 "GET /addresses/ HTTP/1.1" 401 9483
+INFO 2018-09-05 13:44:32,073 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-05 13:44:32,125 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 228
+INFO 2018-09-05 13:44:32,205 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-05 13:44:32,299 basehttp 124 "GET /user/ HTTP/1.1" 200 98
+INFO 2018-09-05 13:44:32,336 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-05 13:44:32,384 base 152 Not Found: /browse_histories/
+WARNING 2018-09-05 13:44:32,385 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 6065
+INFO 2018-09-05 13:45:02,235 basehttp 124 "GET /user/ HTTP/1.1" 200 83
+WARNING 2018-09-05 13:45:02,290 base 152 Not Found: /browse_histories/
+WARNING 2018-09-05 13:45:02,291 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 6065
+INFO 2018-09-05 13:45:09,453 basehttp 124 "OPTIONS /email/ HTTP/1.1" 200 0
+INFO 2018-09-05 13:45:09,591 basehttp 124 "PUT /email/ HTTP/1.1" 200 37
+INFO 2018-09-05 14:29:06,999 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-05 14:29:07,017 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 14:29:07,103 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 99, in list
+    "default_address_id": user.default_id,
+AttributeError: 'Users' object has no attribute 'default_id'
+ERROR 2018-09-05 14:29:07,284 basehttp 124 "GET /addresses/ HTTP/1.1" 500 17568
+INFO 2018-09-05 14:29:14,957 basehttp 124 "GET /areas/130000/ HTTP/1.1" 200 464
+INFO 2018-09-05 14:29:16,365 basehttp 124 "GET /areas/130200/ HTTP/1.1" 200 503
+ERROR 2018-09-05 14:29:24,558 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 108, in create
+    if count >= constants.USER_ADDRESS_COUNTS_LIMIT:
+AttributeError: module 'users.constants' has no attribute 'USER_ADDRESS_COUNTS_LIMIT'
+ERROR 2018-09-05 14:29:24,582 basehttp 124 "POST /addresses/ HTTP/1.1" 500 17652
+INFO 2018-09-05 14:30:20,200 basehttp 124 "POST /addresses/ HTTP/1.1" 201 250
+INFO 2018-09-05 17:03:05,414 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-05 17:03:05,467 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 231
+INFO 2018-09-05 17:03:07,851 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-05 17:03:07,962 basehttp 124 "GET /user/ HTTP/1.1" 200 101
+INFO 2018-09-05 17:03:07,973 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-05 17:03:07,997 base 152 Not Found: /browse_histories/
+WARNING 2018-09-05 17:03:08,003 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 6065
+INFO 2018-09-05 17:03:11,391 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-05 17:03:11,417 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 17:03:11,425 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 99, in list
+    "default_address_id": user.default_id,
+AttributeError: 'Users' object has no attribute 'default_id'
+ERROR 2018-09-05 17:03:11,495 basehttp 124 "GET /addresses/ HTTP/1.1" 500 17690
+ERROR 2018-09-05 17:05:15,006 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x105223a98> is not JSON serializable
+INFO 2018-09-05 17:05:15,012 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 17:05:15,159 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103418
+INFO 2018-09-05 17:08:21,265 basehttp 124 "GET / HTTP/1.1" 200 9577
+INFO 2018-09-05 17:08:21,364 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2018-09-05 17:08:21,364 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2018-09-05 17:08:21,365 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2018-09-05 17:08:21,366 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2018-09-05 17:08:21,369 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2018-09-05 17:08:21,373 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2018-09-05 17:08:21,377 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2018-09-05 17:08:21,379 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2018-09-05 17:08:21,380 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2018-09-05 17:08:21,380 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+INFO 2018-09-05 17:08:21,443 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2018-09-05 17:08:50,826 basehttp 124 "GET / HTTP/1.1" 200 9565
+INFO 2018-09-05 17:08:52,267 basehttp 124 "GET / HTTP/1.1" 200 9565
+INFO 2018-09-05 17:08:58,280 basehttp 124 "GET / HTTP/1.1" 200 9565
+WARNING 2018-09-05 17:09:54,155 base 152 Not Found: /
+WARNING 2018-09-05 17:09:54,156 basehttp 124 "GET / HTTP/1.1" 404 4390
+WARNING 2018-09-05 17:10:07,054 base 152 Not Found: /
+WARNING 2018-09-05 17:10:07,054 basehttp 124 "GET / HTTP/1.1" 404 4390
+WARNING 2018-09-05 17:10:14,281 base 152 Not Found: /
+WARNING 2018-09-05 17:10:14,281 basehttp 124 "GET / HTTP/1.1" 404 4390
+WARNING 2018-09-05 17:10:27,685 base 152 Not Found: /
+WARNING 2018-09-05 17:10:27,686 basehttp 124 "GET / HTTP/1.1" 404 4390
+INFO 2018-09-05 17:10:41,247 basehttp 124 "GET / HTTP/1.1" 200 9565
+INFO 2018-09-05 17:10:42,040 basehttp 124 "GET / HTTP/1.1" 200 9565
+INFO 2018-09-05 17:10:43,824 basehttp 124 "GET /areas/ HTTP/1.1" 200 12771
+INFO 2018-09-05 17:11:11,169 basehttp 124 "GET / HTTP/1.1" 200 9577
+INFO 2018-09-05 17:11:12,967 basehttp 124 "GET / HTTP/1.1" 200 9577
+WARNING 2018-09-05 17:11:15,004 basehttp 124 "GET /addresses/ HTTP/1.1" 401 9483
+INFO 2018-09-05 18:11:43,730 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+ERROR 2018-09-05 18:11:43,795 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x1057aba98> is not JSON serializable
+INFO 2018-09-05 18:11:43,831 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:11:43,925 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103419
+INFO 2018-09-05 18:14:09,092 basehttp 124 "GET / HTTP/1.1" 200 9577
+WARNING 2018-09-05 18:14:11,811 basehttp 124 "GET /addresses/ HTTP/1.1" 401 9483
+ERROR 2018-09-05 18:15:44,130 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x10ef16a98> is not JSON serializable
+INFO 2018-09-05 18:15:44,134 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:15:44,315 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103418
+INFO 2018-09-05 18:16:02,552 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:16:02,569 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 99, in list
+    "default_address_id": user.default_address.id,
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2018-09-05 18:16:02,655 basehttp 124 "GET /addresses/ HTTP/1.1" 500 17687
+ERROR 2018-09-05 18:17:27,815 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 96, in list
+    print(user.default_address.id)
+AttributeError: 'NoneType' object has no attribute 'id'
+INFO 2018-09-05 18:17:27,823 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:17:27,905 basehttp 124 "GET /addresses/ HTTP/1.1" 500 17668
+INFO 2018-09-05 18:18:40,034 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:18:40,038 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 100, in list
+    "default_address_id": user.default_address.id,
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2018-09-05 18:18:40,136 basehttp 124 "GET /addresses/ HTTP/1.1" 500 17688
+INFO 2018-09-05 18:19:14,725 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:19:14,730 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 101, in list
+    "default_address_id": user.default_address.id,
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2018-09-05 18:19:14,793 basehttp 124 "GET /addresses/ HTTP/1.1" 500 17688
+ERROR 2018-09-05 18:19:43,901 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 101, in list
+    "default_address_id": user.default_address.id,
+AttributeError: 'NoneType' object has no attribute 'id'
+INFO 2018-09-05 18:19:43,903 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:19:44,007 basehttp 124 "GET /addresses/ HTTP/1.1" 500 17688
+INFO 2018-09-05 18:21:34,395 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:21:34,412 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x106b23a98> is not JSON serializable
+ERROR 2018-09-05 18:21:34,563 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103419
+INFO 2018-09-05 18:22:59,796 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-05 18:22:59,839 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:22:59,846 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x1092b8a98> is not JSON serializable
+ERROR 2018-09-05 18:22:59,977 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103419
+ERROR 2018-09-05 18:23:15,243 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x10e91da98> is not JSON serializable
+INFO 2018-09-05 18:23:15,245 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:23:15,372 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103418
+ERROR 2018-09-05 18:25:04,323 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x107eaca98> is not JSON serializable
+INFO 2018-09-05 18:25:04,325 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:25:04,452 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103419
+INFO 2018-09-05 18:26:05,312 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-05 18:26:05,348 basehttp 124 "GET /user/ HTTP/1.1" 200 101
+INFO 2018-09-05 18:26:05,370 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-05 18:26:05,408 base 152 Not Found: /browse_histories/
+WARNING 2018-09-05 18:26:05,409 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 6065
+INFO 2018-09-05 18:26:06,368 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:26:06,375 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x107eaca98> is not JSON serializable
+ERROR 2018-09-05 18:26:06,477 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103418
+INFO 2018-09-05 18:26:07,636 basehttp 124 "GET /user/ HTTP/1.1" 200 101
+WARNING 2018-09-05 18:26:07,655 base 152 Not Found: /browse_histories/
+WARNING 2018-09-05 18:26:07,656 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 6065
+INFO 2018-09-05 18:26:10,998 basehttp 124 "OPTIONS /email/ HTTP/1.1" 200 0
+INFO 2018-09-05 18:26:11,079 basehttp 124 "PUT /email/ HTTP/1.1" 200 37
+ERROR 2018-09-05 18:28:07,003 exception 135 Internal Server Error: /emails/verification/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 72, in get
+    user_id = get_save_user_token(token)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/utils.py", line 75, in get_save_user_token
+    data = serializer.loads(token)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/itsdangerous.py", line 795, in loads
+    self, s, salt, return_header=True)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/itsdangerous.py", line 749, in loads
+    self.make_signer(salt, self.algorithm).unsign(want_bytes(s)),
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/itsdangerous.py", line 368, in unsign
+    if sep not in signed_value:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR 2018-09-05 18:28:07,107 basehttp 124 "GET /emails/verification/?token%3DeyJpYXQiOjE1MzYwNDQ1NTYsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM2MDQ0ODU2fQ.eyJ1c2VyX2lkIjo1LCJlbWFpbCI6ImFheHdoeHdoQGdtYWlsLmNvbSJ9.e7d0kVgPq_y6GFDeDpO0VfFmF6SgVdg4evt05uhRilo&source=gmail&ust=1536229666979000&usg=AFQjCNHeX6xF3TEi5I3x7bhQHUT4Eh3ZjQ HTTP/1.1" 500 19123
+WARNING 2018-09-05 18:28:27,151 base 152 Not Found: /emails/verification/
+WARNING 2018-09-05 18:28:27,152 basehttp 124 "GET /emails/verification/?token=eyJpYXQiOjE1MzYwNDQ1NTYsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM2MDQ0ODU2fQ.eyJ1c2VyX2lkIjo1LCJlbWFpbCI6ImFheHdoeHdoQGdtYWlsLmNvbSJ9.e7d0kVgPq_y6GFDeDpO0VfFmF6SgVdg4evt05uhRilo HTTP/1.1" 404 28
+ERROR 2018-09-05 18:29:43,910 exception 135 Internal Server Error: /emails/verification/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 72, in get
+    user_id = get_save_user_token(token)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/utils.py", line 75, in get_save_user_token
+    data = serializer.loads(token)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/itsdangerous.py", line 795, in loads
+    self, s, salt, return_header=True)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/itsdangerous.py", line 749, in loads
+    self.make_signer(salt, self.algorithm).unsign(want_bytes(s)),
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/itsdangerous.py", line 368, in unsign
+    if sep not in signed_value:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR 2018-09-05 18:29:43,929 basehttp 124 "GET /emails/verification/?token%3DeyJpYXQiOjE1MzYxMjYzMDksImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM2Mjk5MTA5fQ.eyJ1c2VyX2lkIjo1fQ.VT7eBFFTqr8DGeomMFMCmoKPmtUrPvDfdee6RsMHaVY&source=gmail&ust=1536229767115000&usg=AFQjCNHoO4L_P60tQLefnlRaWg19uwDLrA HTTP/1.1" 500 18971
+ERROR 2018-09-05 18:29:54,578 exception 135 Internal Server Error: /emails/verification/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 72, in get
+    user_id = get_save_user_token(token)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/utils.py", line 75, in get_save_user_token
+    data = serializer.loads(token)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/itsdangerous.py", line 795, in loads
+    self, s, salt, return_header=True)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/itsdangerous.py", line 749, in loads
+    self.make_signer(salt, self.algorithm).unsign(want_bytes(s)),
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/itsdangerous.py", line 368, in unsign
+    if sep not in signed_value:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR 2018-09-05 18:29:54,596 basehttp 124 "GET /emails/verification/?token%3DeyJleHAiOjE1MzYzMTU5NzEsImFsZyI6IkhTMjU2IiwiaWF0IjoxNTM2MTQzMTcxfQ.eyJ1c2VyX2lkIjo1fQ.ske7KaX2rCVViyWX5r6iC-hvp3BPKuVma0osVmMcGww&source=gmail&ust=1536229767117000&usg=AFQjCNFXI8Wi2E9iavezDIv5hfUNQ5P8NQ HTTP/1.1" 500 18971
+INFO 2018-09-05 18:30:09,071 basehttp 124 "GET /user/ HTTP/1.1" 200 101
+WARNING 2018-09-05 18:30:09,102 base 152 Not Found: /browse_histories/
+WARNING 2018-09-05 18:30:09,103 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 6065
+INFO 2018-09-05 18:30:10,326 basehttp 124 "PUT /email/ HTTP/1.1" 200 37
+INFO 2018-09-05 18:30:32,119 basehttp 124 "GET /emails/verification/?token=eyJleHAiOjE1MzYzMTYyMTAsImFsZyI6IkhTMjU2IiwiaWF0IjoxNTM2MTQzNDEwfQ.eyJ1c2VyX2lkIjo1fQ.n6K6RlqYQjQcsp7L4BYVBOhtQ10Yoz7BOQwDROg9t_0 HTTP/1.1" 200 32
+INFO 2018-09-05 18:30:40,407 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+WARNING 2018-09-05 18:30:40,440 base 152 Not Found: /browse_histories/
+WARNING 2018-09-05 18:30:40,440 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 6065
+INFO 2018-09-05 18:30:42,167 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:30:42,190 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x107eaca98> is not JSON serializable
+ERROR 2018-09-05 18:30:42,284 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103418
+INFO 2018-09-05 18:31:01,124 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:31:01,132 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x107eaca98> is not JSON serializable
+ERROR 2018-09-05 18:31:01,252 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103418
+INFO 2018-09-05 18:31:10,073 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:31:10,081 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x107eaca98> is not JSON serializable
+ERROR 2018-09-05 18:31:10,167 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103418
+INFO 2018-09-05 18:31:17,659 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:31:17,665 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x102f5fa98> is not JSON serializable
+ERROR 2018-09-05 18:31:17,758 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103162
+INFO 2018-09-05 18:35:07,158 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-05 18:35:07,178 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:35:07,244 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x106cfaa98> is not JSON serializable
+ERROR 2018-09-05 18:35:07,619 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103415
+INFO 2018-09-05 18:35:45,413 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-05 18:35:45,428 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:35:45,456 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x1053d8a98> is not JSON serializable
+ERROR 2018-09-05 18:35:45,614 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103570
+ERROR 2018-09-05 18:37:22,030 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/local/var/pyenv/versions/3.5.2/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <property object at 0x10bef4a98> is not JSON serializable
+INFO 2018-09-05 18:37:22,036 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:37:22,178 basehttp 124 "GET /addresses/ HTTP/1.1" 500 103419
+INFO 2018-09-05 18:45:49,999 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-05 18:45:50,019 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:45:50,063 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'province_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 99, in list
+    'addresses': serializer.data,
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `province_id` on serializer `UserAddressSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'province_id'.
+ERROR 2018-09-05 18:45:50,162 basehttp 124 "GET /addresses/ HTTP/1.1" 500 19354
+ERROR 2018-09-05 18:47:02,221 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'province_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 99, in list
+    'addresses': serializer.data,
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `province_id` on serializer `UserAddressSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'province_id'.
+INFO 2018-09-05 18:47:02,226 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:47:02,386 basehttp 124 "GET /addresses/ HTTP/1.1" 500 19354
+INFO 2018-09-05 18:48:04,351 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:48:04,380 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'province_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 100, in list
+    'addresses': serializer.data,
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `province_id` on serializer `UserAddressSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'province_id'.
+ERROR 2018-09-05 18:48:04,495 basehttp 124 "GET /addresses/ HTTP/1.1" 500 19355
+INFO 2018-09-05 18:48:20,423 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:48:20,447 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'province_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 100, in list
+    'addresses': serializer.data,
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `province_id` on serializer `UserAddressSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'province_id'.
+ERROR 2018-09-05 18:48:20,544 basehttp 124 "GET /addresses/ HTTP/1.1" 500 19355
+INFO 2018-09-05 18:48:37,613 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:48:37,620 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'province_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 100, in list
+    'addresses': serializer.data,
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `province_id` on serializer `UserAddressSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'province_id'.
+ERROR 2018-09-05 18:48:37,728 basehttp 124 "GET /addresses/ HTTP/1.1" 500 19355
+INFO 2018-09-05 18:49:43,702 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:49:43,723 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'province_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 101, in list
+    'addresses': serializer.data,
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `province_id` on serializer `UserAddressSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'province_id'.
+ERROR 2018-09-05 18:49:43,844 basehttp 124 "GET /addresses/ HTTP/1.1" 500 19356
+INFO 2018-09-05 18:50:23,905 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:50:23,929 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'province_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 95, in list
+    print(serializer.data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `province_id` on serializer `UserAddressSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'province_id'.
+ERROR 2018-09-05 18:50:24,024 basehttp 124 "GET /addresses/ HTTP/1.1" 500 19343
+INFO 2018-09-05 18:50:39,632 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:50:39,648 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'province_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 100, in list
+    'addresses': serializer.data,
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `province_id` on serializer `UserAddressSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'province_id'.
+ERROR 2018-09-05 18:50:39,756 basehttp 124 "GET /addresses/ HTTP/1.1" 500 19356
+INFO 2018-09-05 18:51:02,216 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:51:02,224 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'province_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 95, in list
+    print(serializer.data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `province_id` on serializer `UserAddressSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'province_id'.
+ERROR 2018-09-05 18:51:02,311 basehttp 124 "GET /addresses/ HTTP/1.1" 500 19343
+INFO 2018-09-05 18:52:46,007 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 18:52:46,053 basehttp 124 "GET /addresses/ HTTP/1.1" 200 303
+INFO 2018-09-05 18:53:08,062 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+ERROR 2018-09-05 18:53:08,071 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 94, in list
+    serializer = self.get_serializer_class(many=True)
+TypeError: get_serializer_class() got an unexpected keyword argument 'many'
+ERROR 2018-09-05 18:53:08,147 basehttp 124 "GET /addresses/ HTTP/1.1" 500 17726
+INFO 2018-09-05 18:53:28,384 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 18:53:28,414 basehttp 124 "GET /addresses/ HTTP/1.1" 200 303
+INFO 2018-09-05 18:53:32,254 basehttp 124 "OPTIONS /addresses/1/ HTTP/1.1" 200 0
+ERROR 2018-09-05 18:53:32,271 exception 135 Internal Server Error: /addresses/1/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-05 18:53:32,353 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 500 83218
+WARNING 2018-09-05 18:53:33,983 base 152 Not Found: /addresses/1/
+WARNING 2018-09-05 18:53:33,983 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 404 25
+WARNING 2018-09-05 18:54:36,202 base 152 Not Found: /addresses/1/
+WARNING 2018-09-05 18:54:36,203 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 404 25
+INFO 2018-09-05 18:55:43,485 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 18:55:43,497 basehttp 124 "GET /addresses/ HTTP/1.1" 200 53
+INFO 2018-09-05 18:55:58,083 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-05 18:55:58,092 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 18:55:58,157 basehttp 124 "GET /addresses/ HTTP/1.1" 200 303
+INFO 2018-09-05 18:59:16,349 basehttp 124 "OPTIONS /addresses/1/status/ HTTP/1.1" 200 0
+WARNING 2018-09-05 18:59:16,361 base 152 Not Found: /addresses/1/status/
+WARNING 2018-09-05 18:59:16,362 basehttp 124 "PUT /addresses/1/status/ HTTP/1.1" 404 6071
+WARNING 2018-09-05 18:59:17,360 base 152 Not Found: /addresses/1/status/
+WARNING 2018-09-05 18:59:17,360 basehttp 124 "PUT /addresses/1/status/ HTTP/1.1" 404 6071
+INFO 2018-09-05 18:59:31,572 basehttp 124 "GET /areas/130000/ HTTP/1.1" 200 464
+INFO 2018-09-05 18:59:31,582 basehttp 124 "GET /areas/130200/ HTTP/1.1" 200 503
+INFO 2018-09-05 18:59:33,691 basehttp 124 "PUT /addresses/1/ HTTP/1.1" 200 250
+INFO 2018-09-05 18:59:40,087 basehttp 124 "PUT /addresses/1/ HTTP/1.1" 200 247
+INFO 2018-09-05 18:59:45,092 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 18:59:45,116 basehttp 124 "GET /addresses/ HTTP/1.1" 200 300
+WARNING 2018-09-05 18:59:50,020 base 152 Not Found: /addresses/1/status/
+WARNING 2018-09-05 18:59:50,020 basehttp 124 "PUT /addresses/1/status/ HTTP/1.1" 404 6071
+INFO 2018-09-05 19:04:40,885 basehttp 124 "OPTIONS /addresses/1/ HTTP/1.1" 200 0
+INFO 2018-09-05 19:04:40,915 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 200 26
+INFO 2018-09-05 19:04:44,220 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 19:04:44,237 basehttp 124 "GET /addresses/ HTTP/1.1" 200 53
+INFO 2018-09-05 19:05:08,672 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 19:05:08,703 basehttp 124 "GET /addresses/ HTTP/1.1" 200 300
+INFO 2018-09-05 19:05:10,558 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 200 26
+INFO 2018-09-05 19:06:01,670 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-05 19:06:01,686 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 19:06:01,743 basehttp 124 "GET /addresses/ HTTP/1.1" 200 300
+INFO 2018-09-05 19:06:06,024 basehttp 124 "OPTIONS /addresses/1/title/ HTTP/1.1" 200 0
+WARNING 2018-09-05 19:06:06,040 base 152 Not Found: /addresses/1/title/
+WARNING 2018-09-05 19:06:06,056 basehttp 124 "PUT /addresses/1/title/ HTTP/1.1" 404 6068
+WARNING 2018-09-05 19:08:06,321 base 152 Not Found: /addresses/1/status/
+WARNING 2018-09-05 19:08:06,322 basehttp 124 "PUT /addresses/1/status/ HTTP/1.1" 404 6071
+INFO 2018-09-05 19:35:59,536 basehttp 124 "OPTIONS /addresses/1/title/ HTTP/1.1" 200 0
+WARNING 2018-09-05 19:35:59,561 base 152 Not Found: /addresses/1/title/
+WARNING 2018-09-05 19:35:59,573 basehttp 124 "PUT /addresses/1/title/ HTTP/1.1" 404 6964
+INFO 2018-09-05 19:40:56,529 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-05 19:40:56,563 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 19:40:56,654 basehttp 124 "GET /addresses/ HTTP/1.1" 200 300
+INFO 2018-09-05 19:40:58,901 basehttp 124 "OPTIONS /addresses/1/status/ HTTP/1.1" 200 0
+ERROR 2018-09-05 19:40:58,917 exception 135 Internal Server Error: /addresses/1/status/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-05 19:40:59,030 basehttp 124 "PUT /addresses/1/status/ HTTP/1.1" 500 83137
+ERROR 2018-09-05 19:42:13,395 exception 135 Internal Server Error: /addresses/1/status/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-05 19:42:13,549 basehttp 124 "PUT /addresses/1/status/ HTTP/1.1" 500 83137
+ERROR 2018-09-05 19:42:29,391 exception 135 Internal Server Error: /addresses/1/status/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-05 19:42:29,552 basehttp 124 "PUT /addresses/1/status/ HTTP/1.1" 500 83137
+INFO 2018-09-05 19:43:45,777 basehttp 124 "PUT /addresses/1/status/ HTTP/1.1" 200 0
+INFO 2018-09-05 19:47:06,832 basehttp 124 "OPTIONS /addresses/1/title/ HTTP/1.1" 200 0
+INFO 2018-09-05 19:47:06,881 basehttp 124 "PUT /addresses/1/title/ HTTP/1.1" 200 18
+INFO 2018-09-05 19:47:14,555 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 19:47:14,580 basehttp 124 "GET /addresses/ HTTP/1.1" 200 297
+INFO 2018-09-05 19:49:08,796 basehttp 124 "GET /areas/440000/ HTTP/1.1" 200 734
+INFO 2018-09-05 19:49:11,452 basehttp 124 "GET /areas/440100/ HTTP/1.1" 200 404
+INFO 2018-09-05 19:49:22,536 basehttp 124 "POST /addresses/ HTTP/1.1" 201 256
+INFO 2018-09-05 19:49:26,538 basehttp 124 "OPTIONS /addresses/2/status/ HTTP/1.1" 200 0
+INFO 2018-09-05 19:49:26,554 basehttp 124 "PUT /addresses/2/status/ HTTP/1.1" 200 38
+INFO 2018-09-05 19:49:28,582 basehttp 124 "PUT /addresses/1/status/ HTTP/1.1" 200 38
+INFO 2018-09-05 19:49:40,229 basehttp 124 "OPTIONS /addresses/2/title/ HTTP/1.1" 200 0
+INFO 2018-09-05 19:49:40,252 basehttp 124 "PUT /addresses/2/title/ HTTP/1.1" 200 18
+INFO 2018-09-05 19:50:10,211 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-05 19:50:10,272 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-05 19:50:10,357 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-05 19:50:10,412 base 152 Not Found: /browse_histories/
+WARNING 2018-09-05 19:50:10,414 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 6965
+INFO 2018-09-05 19:50:12,738 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 19:50:12,790 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-05 19:50:17,476 basehttp 124 "PUT /addresses/2/status/ HTTP/1.1" 200 38
+INFO 2018-09-05 19:54:11,162 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-05 19:54:11,179 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 19:54:11,261 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-05 19:54:14,577 basehttp 124 "OPTIONS /addresses/1/status/ HTTP/1.1" 200 0
+INFO 2018-09-05 19:54:14,597 basehttp 124 "PUT /addresses/1/status/ HTTP/1.1" 200 38
+INFO 2018-09-05 19:54:51,354 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 19:54:51,389 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-05 19:58:21,343 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-05 19:58:21,389 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 00:10:38,824 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-06 00:10:38,862 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 00:10:38,956 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 00:10:43,374 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 00:10:43,411 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 00:10:49,822 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 00:10:49,859 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 00:12:52,157 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 00:12:52,190 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 00:14:24,358 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 00:14:24,408 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 00:20:55,747 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-06 00:20:55,811 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 00:21:01,247 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 00:21:41,082 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 00:23:19,219 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 00:23:22,034 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 00:26:57,773 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 00:27:01,209 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 00:27:42,600 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-06 00:27:42,603 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 00:27:42,764 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 00:27:44,692 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 00:27:47,286 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 00:27:47,333 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 00:27:55,757 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 00:27:58,548 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 00:27:58,593 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 00:27:59,389 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:06:43,831 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-06 10:06:43,884 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:06:45,781 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:09:26,424 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-06 10:09:26,435 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 10:09:26,538 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 10:09:28,530 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:09:33,001 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 10:09:33,033 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 10:09:34,575 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:11:14,046 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:11:14,076 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-06 10:11:14,129 base 152 Not Found: /browse_histories/
+WARNING 2018-09-06 10:11:14,130 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 6965
+INFO 2018-09-06 10:11:17,221 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 10:11:17,251 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 10:11:20,313 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:11:22,384 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 10:11:22,411 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 10:11:24,124 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:12:09,727 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:12:12,562 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 10:12:12,619 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 10:12:15,244 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:12:17,617 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-06 10:12:17,651 basehttp 124 "GET /addresses/ HTTP/1.1" 200 551
+INFO 2018-09-06 10:12:19,734 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:15:15,229 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:21:51,914 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-06 10:21:51,968 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:22:59,948 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:24:52,849 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-06 10:24:52,903 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 231
+INFO 2018-09-06 10:24:55,171 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-06 10:24:55,280 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:24:55,295 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-06 10:24:55,333 base 152 Not Found: /browse_histories/
+WARNING 2018-09-06 10:24:55,337 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 6965
+INFO 2018-09-06 10:24:58,314 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:26:31,335 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-06 10:26:31,383 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 231
+INFO 2018-09-06 10:26:33,826 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-06 10:26:33,922 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:26:33,965 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-06 10:26:33,989 base 152 Not Found: /browse_histories/
+WARNING 2018-09-06 10:26:33,990 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 6965
+INFO 2018-09-06 10:26:35,105 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:30:05,879 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 10:31:27,899 basehttp 124 "OPTIONS /user/password HTTP/1.1" 200 0
+WARNING 2018-09-06 10:31:27,910 base 152 Not Found: /user/password
+WARNING 2018-09-06 10:31:27,910 basehttp 124 "PUT /user/password HTTP/1.1" 404 6953
+INFO 2018-09-06 10:46:03,595 basehttp 124 "OPTIONS /user/password HTTP/1.1" 200 0
+ERROR 2018-09-06 10:46:03,600 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 10:46:03,675 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+INFO 2018-09-06 11:00:10,371 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-06 11:00:10,520 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 11:00:57,419 basehttp 124 "OPTIONS /user/password HTTP/1.1" 200 0
+ERROR 2018-09-06 11:00:57,424 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 11:00:57,495 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 14:47:28,202 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 14:47:28,270 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+INFO 2018-09-06 15:12:08,029 basehttp 124 "OPTIONS /user/password HTTP/1.1" 200 0
+ERROR 2018-09-06 15:12:08,039 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:08,162 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+INFO 2018-09-06 15:12:18,453 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-06 15:12:18,740 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+ERROR 2018-09-06 15:12:32,525 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:32,613 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:33,520 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:33,582 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:33,978 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:34,050 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:34,683 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:34,839 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:35,145 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:35,205 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:35,571 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:35,629 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:36,029 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:36,102 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:36,496 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:36,561 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:36,960 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:37,011 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:37,711 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:37,797 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:38,126 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:38,242 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:38,680 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:38,745 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:12:48,964 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:12:49,110 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+ERROR 2018-09-06 15:16:17,245 exception 135 Internal Server Error: /user/password
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to api.meiduo.site:8000/user/password/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2018-09-06 15:16:17,401 basehttp 124 "PUT /user/password HTTP/1.1" 500 66991
+INFO 2018-09-06 15:17:57,610 basehttp 124 "OPTIONS /user/password/ HTTP/1.1" 200 0
+WARNING 2018-09-06 15:17:57,627 basehttp 124 "PUT /user/password/ HTTP/1.1" 401 43
+WARNING 2018-09-06 15:19:20,759 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 122
+WARNING 2018-09-06 15:19:29,997 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 41
+INFO 2018-09-06 15:20:03,731 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-06 15:20:03,784 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 231
+INFO 2018-09-06 15:20:10,066 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 15:20:10,103 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-06 15:20:10,157 base 152 Not Found: /browse_histories/
+WARNING 2018-09-06 15:20:10,157 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 7129
+INFO 2018-09-06 15:20:13,651 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 15:23:39,201 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-06 15:23:39,258 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 231
+INFO 2018-09-06 15:23:41,690 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-06 15:23:41,813 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 15:23:41,824 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-06 15:23:41,851 base 152 Not Found: /browse_histories/
+WARNING 2018-09-06 15:23:41,852 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 7129
+INFO 2018-09-06 15:23:44,126 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-06 15:25:05,690 basehttp 124 "OPTIONS /user/password/ HTTP/1.1" 200 0
+WARNING 2018-09-06 15:25:05,703 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 166
+INFO 2018-09-07 08:32:56,317 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-07 08:32:56,396 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-07 08:42:45,235 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-07 08:42:45,305 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 231
+INFO 2018-09-07 08:42:47,271 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-07 08:42:47,389 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-07 08:42:47,428 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-07 08:42:47,497 base 152 Not Found: /browse_histories/
+WARNING 2018-09-07 08:42:47,498 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 7129
+INFO 2018-09-07 08:42:48,904 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-07 08:42:59,155 basehttp 124 "OPTIONS /user/password/ HTTP/1.1" 200 0
+WARNING 2018-09-07 08:42:59,170 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 41
+WARNING 2018-09-07 08:43:16,883 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 41
+WARNING 2018-09-07 08:45:36,115 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 41
+WARNING 2018-09-07 08:48:07,042 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 41
+WARNING 2018-09-07 08:48:38,118 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 41
+WARNING 2018-09-07 08:49:09,069 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 41
+ERROR 2018-09-07 08:51:32,283 exception 135 Internal Server Error: /user/password/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/request.py", line 411, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/generics.py", line 228, in put
+    return self.update(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py", line 67, in update
+    instance = self.get_object()
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 145, in get_object
+    print(self.request.password)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/request.py", line 413, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'password'
+ERROR 2018-09-07 08:51:32,356 basehttp 124 "PUT /user/password/ HTTP/1.1" 500 18509
+WARNING 2018-09-07 08:51:57,333 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 41
+INFO 2018-09-07 08:53:06,088 basehttp 124 "OPTIONS /user/password/ HTTP/1.1" 200 0
+WARNING 2018-09-07 08:53:06,115 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 41
+ERROR 2018-09-07 08:53:48,002 exception 135 Internal Server Error: /user/password/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Response' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/generics.py", line 228, in put
+    return self.update(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py", line 77, in update
+    return Response(serializer.data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `ChangePasswordSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Response` instance.
+Original exception text was: 'Response' object has no attribute 'password'.
+ERROR 2018-09-07 08:53:48,065 basehttp 124 "PUT /user/password/ HTTP/1.1" 500 19572
+INFO 2018-09-07 08:56:37,277 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-07 08:56:37,343 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-07 08:58:19,321 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+ERROR 2018-09-07 08:58:30,510 exception 135 Internal Server Error: /user/password/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/generics.py", line 228, in put
+    return self.update(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py", line 70, in update
+    self.perform_update(serializer)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py", line 80, in perform_update
+    serializer.save()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 209, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/users/serializers.py", line 190, in update
+    if not instance.check_password(validated_data['old_password']):
+KeyError: 'old_password'
+ERROR 2018-09-07 08:58:30,597 basehttp 124 "PUT /user/password/ HTTP/1.1" 500 18336
+WARNING 2018-09-07 08:59:02,983 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 16
+WARNING 2018-09-07 08:59:45,983 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 16
+WARNING 2018-09-07 08:59:58,318 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 16
+WARNING 2018-09-07 09:00:33,226 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 16
+WARNING 2018-09-07 09:00:55,000 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 16
+WARNING 2018-09-07 09:01:19,359 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 16
+WARNING 2018-09-07 09:01:39,114 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 16
+WARNING 2018-09-07 09:02:04,223 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 16
+INFO 2018-09-07 09:03:09,047 basehttp 124 "OPTIONS /user/password/ HTTP/1.1" 200 0
+WARNING 2018-09-07 09:03:09,154 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 16
+INFO 2018-09-07 09:03:45,655 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+WARNING 2018-09-07 09:03:45,711 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+INFO 2018-09-07 09:03:50,153 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 231
+INFO 2018-09-07 09:03:55,477 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-07 09:03:55,551 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-07 09:03:55,580 base 152 Not Found: /browse_histories/
+WARNING 2018-09-07 09:03:55,582 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 7129
+INFO 2018-09-07 09:04:01,685 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+ERROR 2018-09-07 09:04:10,032 exception 135 Internal Server Error: /user/password/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Users' object has no attribute 'new_password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/generics.py", line 228, in put
+    return self.update(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py", line 77, in update
+    return Response(serializer.data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `new_password` on serializer `ChangePasswordSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Users` instance.
+Original exception text was: 'Users' object has no attribute 'new_password'.
+ERROR 2018-09-07 09:04:10,100 basehttp 124 "PUT /user/password/ HTTP/1.1" 500 19577
+INFO 2018-09-07 09:40:46,835 basehttp 124 "OPTIONS /user/password/ HTTP/1.1" 200 0
+WARNING 2018-09-07 09:40:46,952 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 16
+INFO 2018-09-07 09:41:20,907 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-07 09:41:20,965 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 231
+INFO 2018-09-07 09:41:23,453 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-07 09:41:23,503 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-07 09:41:23,545 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-07 09:41:23,577 base 152 Not Found: /browse_histories/
+WARNING 2018-09-07 09:41:23,578 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 7129
+INFO 2018-09-07 09:41:24,985 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+ERROR 2018-09-07 09:41:33,777 exception 135 Internal Server Error: /user/password/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Users' object has no attribute 'new_password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/generics.py", line 228, in put
+    return self.update(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py", line 77, in update
+    return Response(serializer.data)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `new_password` on serializer `ChangePasswordSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Users` instance.
+Original exception text was: 'Users' object has no attribute 'new_password'.
+ERROR 2018-09-07 09:41:33,844 basehttp 124 "PUT /user/password/ HTTP/1.1" 500 19577
+WARNING 2018-09-07 09:42:23,888 basehttp 124 "PUT /user/password/ HTTP/1.1" 400 16
+WARNING 2018-09-07 09:42:31,605 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+INFO 2018-09-07 09:42:35,238 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 231
+INFO 2018-09-07 09:42:37,966 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+WARNING 2018-09-07 09:42:38,052 base 152 Not Found: /browse_histories/
+WARNING 2018-09-07 09:42:38,053 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 7129
+INFO 2018-09-07 09:42:39,338 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-07 09:42:55,092 basehttp 124 "PUT /user/password/ HTTP/1.1" 200 2
+INFO 2018-09-07 09:47:10,930 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+WARNING 2018-09-07 09:47:11,024 base 152 Not Found: /browse_histories/
+WARNING 2018-09-07 09:47:11,025 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 7129
+INFO 2018-09-07 09:51:17,201 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-07 09:52:27,434 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-07 09:52:27,614 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-07 10:13:45,175 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-07 18:44:41,770 basehttp 124 "GET /admin HTTP/1.1" 301 0
+INFO 2018-09-07 18:44:41,832 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+INFO 2018-09-07 18:44:41,916 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1652
+INFO 2018-09-07 18:44:41,990 basehttp 124 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO 2018-09-07 18:44:41,991 basehttp 124 "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+INFO 2018-09-07 18:44:42,027 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2018-09-07 18:44:42,075 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2018-09-07 18:44:42,086 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2018-09-07 18:44:48,613 basehttp 124 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2018-09-07 18:44:48,648 basehttp 124 "GET /admin/ HTTP/1.1" 200 6381
+INFO 2018-09-07 18:44:48,662 basehttp 124 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2018-09-07 18:44:48,713 basehttp 124 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2018-09-07 18:44:48,714 basehttp 124 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2018-09-07 18:44:48,718 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2018-09-07 18:44:52,158 basehttp 124 "GET /admin/goods/skuimage/ HTTP/1.1" 200 15617
+INFO 2018-09-07 18:44:52,222 basehttp 124 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO 2018-09-07 18:44:52,231 basehttp 124 "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+INFO 2018-09-07 18:44:52,241 basehttp 124 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2018-09-07 18:44:52,244 basehttp 124 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+INFO 2018-09-07 18:44:52,253 basehttp 124 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+INFO 2018-09-07 18:44:52,257 basehttp 124 "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+INFO 2018-09-07 18:44:52,259 basehttp 124 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+INFO 2018-09-07 18:44:52,261 basehttp 124 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+INFO 2018-09-07 18:44:52,262 basehttp 124 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2018-09-07 18:44:52,274 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 18:44:52,634 basehttp 124 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+ERROR 2018-09-07 18:44:54,525 exception 135 Internal Server Error: /admin/goods/skuimage/43/change/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 84, in rendered_content
+    content = template.render(context, self._request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader_tags.py", line 216, in render
+    return template.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 1046, in render
+    return render_value_in_context(output, context)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/base.py", line 1024, in render_value_in_context
+    value = force_text(value)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/encoding.py", line 76, in force_text
+    s = six.text_type(s)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/html.py", line 394, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/forms/boundfield.py", line 41, in __str__
+    return self.as_widget()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/forms/boundfield.py", line 127, in as_widget
+    **kwargs
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/forms/widgets.py", line 220, in render
+    context = self.get_context(name, value, attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/forms/widgets.py", line 409, in get_context
+    context = super(ClearableFileInput, self).get_context(name, value, attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/forms/widgets.py", line 275, in get_context
+    context = super(Input, self).get_context(name, value, attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/forms/widgets.py", line 210, in get_context
+    'value': self.format_value(value),
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/forms/widgets.py", line 405, in format_value
+    if self.is_initial(value):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/forms/widgets.py", line 399, in is_initial
+    return bool(value and getattr(value, 'url', False))
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/db/models/fields/files.py", line 70, in url
+    return self.storage.url(self.name)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/functional.py", line 238, in inner
+    self._setup()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/files/storage.py", line 472, in _setup
+    self._wrapped = get_storage_class()()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/files/storage.py", line 467, in get_storage_class
+    return import_string(import_path or settings.DEFAULT_FILE_STORAGE)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/module_loading.py", line 20, in import_string
+    module = import_module(module_path)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/utils/fastdfs/fdfs_storage.py", line 11, in <module>
+    from fdfs_client.client import Fdfs_client
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/fdfs_client/client.py", line 12, in <module>
+    from fdfs_client.utils import *
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/fdfs_client/utils.py", line 230
+    print get_file_ext_name('/bc.tar.gz')
+                          ^
+SyntaxError: invalid syntax
+ERROR 2018-09-07 18:44:54,720 basehttp 124 "GET /admin/goods/skuimage/43/change/ HTTP/1.1" 500 530520
+INFO 2018-09-07 18:44:59,034 basehttp 124 "GET /admin/goods/skuimage/ HTTP/1.1" 200 15617
+INFO 2018-09-07 18:45:05,594 basehttp 124 "GET /admin/goods/ HTTP/1.1" 200 5581
+INFO 2018-09-07 18:45:10,480 basehttp 124 "GET /admin/ HTTP/1.1" 200 6381
+INFO 2018-09-07 18:45:21,069 basehttp 124 "GET /admin/goods/brand/ HTTP/1.1" 200 4404
+INFO 2018-09-07 18:45:21,114 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 18:45:23,118 basehttp 124 "GET /admin/ HTTP/1.1" 200 6381
+INFO 2018-09-07 18:45:26,951 basehttp 124 "GET /admin/goods/specificationoption/ HTTP/1.1" 200 8949
+INFO 2018-09-07 18:45:27,007 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 18:45:28,939 basehttp 124 "GET /admin/ HTTP/1.1" 200 6381
+INFO 2018-09-07 18:51:37,442 basehttp 124 "GET /admin/ HTTP/1.1" 200 7233
+INFO 2018-09-07 18:54:37,154 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 18:54:37,210 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 18:54:38,896 basehttp 124 "GET /admin/goods/goods/3/change/ HTTP/1.1" 200 87281
+INFO 2018-09-07 18:54:38,927 basehttp 124 "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+INFO 2018-09-07 18:54:38,997 basehttp 124 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2018-09-07 18:54:39,011 basehttp 124 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2018-09-07 18:54:39,016 basehttp 124 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2018-09-07 18:54:39,016 basehttp 124 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2018-09-07 18:54:39,018 basehttp 124 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2018-09-07 18:54:39,030 basehttp 124 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2018-09-07 18:54:39,037 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 18:54:39,396 basehttp 124 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2018-09-07 18:54:39,440 basehttp 124 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2018-09-07 18:54:39,440 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2018-09-07 18:54:39,457 basehttp 124 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2018-09-07 18:54:39,479 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2018-09-07 18:54:39,479 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2018-09-07 18:54:39,480 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2018-09-07 18:54:39,481 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2018-09-07 18:54:39,490 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2018-09-07 18:54:39,541 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png?t=95e5d83 HTTP/1.1" 200 40265
+INFO 2018-09-07 18:54:39,580 basehttp 124 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2018-09-07 18:55:46,910 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 18:55:46,961 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 18:55:50,184 basehttp 124 "GET /admin/goods/goods/1/change/ HTTP/1.1" 200 88919
+INFO 2018-09-07 18:55:50,238 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 18:56:02,788 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 18:56:02,825 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 18:56:09,578 basehttp 124 "GET /admin/goods/goods/add/ HTTP/1.1" 200 84029
+INFO 2018-09-07 18:56:09,622 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 18:56:12,644 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/image/dialogs/image.js?t=I3I8 HTTP/1.1" 200 21390
+INFO 2018-09-07 18:56:12,645 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=I3I8 HTTP/1.1" 200 13570
+INFO 2018-09-07 18:56:12,693 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock.png HTTP/1.1" 200 1062
+INFO 2018-09-07 18:56:12,694 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/refresh.png HTTP/1.1" 200 1623
+INFO 2018-09-07 18:56:12,695 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/close.png HTTP/1.1" 200 1238
+ERROR 2018-09-07 18:56:16,439 exception 135 Internal Server Error: /ckeditor/browse/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 221, in browse
+    files = get_files_browse_urls(request.user)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 192, in get_files_browse_urls
+    for filename in get_image_files(user=user):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 166, in get_image_files
+    storage_list = storage.listdir(browse_path)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/functional.py", line 238, in inner
+    self._setup()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/files/storage.py", line 472, in _setup
+    self._wrapped = get_storage_class()()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/files/storage.py", line 467, in get_storage_class
+    return import_string(import_path or settings.DEFAULT_FILE_STORAGE)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/module_loading.py", line 20, in import_string
+    module = import_module(module_path)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/utils/fastdfs/fdfs_storage.py", line 11, in <module>
+    from fdfs_client.client import Fdfs_client
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/fdfs_client/client.py", line 12, in <module>
+    from fdfs_client.utils import *
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/fdfs_client/utils.py", line 230
+    print get_file_ext_name('/bc.tar.gz')
+                          ^
+SyntaxError: invalid syntax
+ERROR 2018-09-07 18:56:16,593 basehttp 124 "GET /ckeditor/browse/?CKEditor=id_desc_detail&CKEditorFuncNum=1&langCode=zh-cn HTTP/1.1" 500 129397
+ERROR 2018-09-07 18:56:26,371 exception 135 Internal Server Error: /ckeditor/upload/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 94, in post
+    saved_path = self._save_file(request, uploaded_file)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 113, in _save_file
+    filename = get_upload_filename(uploaded_file.name, request.user)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 64, in get_upload_filename
+    return storage.get_available_name(
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/functional.py", line 238, in inner
+    self._setup()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/files/storage.py", line 472, in _setup
+    self._wrapped = get_storage_class()()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/files/storage.py", line 467, in get_storage_class
+    return import_string(import_path or settings.DEFAULT_FILE_STORAGE)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/module_loading.py", line 20, in import_string
+    module = import_module(module_path)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/utils/fastdfs/fdfs_storage.py", line 11, in <module>
+    from fdfs_client.client import Fdfs_client
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/fdfs_client/client.py", line 12, in <module>
+    from fdfs_client.utils import *
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/fdfs_client/utils.py", line 230
+    print get_file_ext_name('/bc.tar.gz')
+                          ^
+SyntaxError: invalid syntax
+ERROR 2018-09-07 18:56:26,465 basehttp 124 "POST /ckeditor/upload/ HTTP/1.1" 500 139409
+INFO 2018-09-07 18:56:42,163 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 18:58:19,018 basehttp 124 "GET /admin/goods/goods/add/ HTTP/1.1" 200 84029
+INFO 2018-09-07 18:58:19,118 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+ERROR 2018-09-07 18:58:33,172 exception 135 Internal Server Error: /ckeditor/upload/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 94, in post
+    saved_path = self._save_file(request, uploaded_file)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 113, in _save_file
+    filename = get_upload_filename(uploaded_file.name, request.user)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 64, in get_upload_filename
+    return storage.get_available_name(
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/functional.py", line 238, in inner
+    self._setup()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/files/storage.py", line 472, in _setup
+    self._wrapped = get_storage_class()()
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/files/storage.py", line 467, in get_storage_class
+    return import_string(import_path or settings.DEFAULT_FILE_STORAGE)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/utils/module_loading.py", line 20, in import_string
+    module = import_module(module_path)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/utils/fastdfs/fdfs_storage.py", line 11, in <module>
+    from fdfs_client.client import Fdfs_client
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/fdfs_client/client.py", line 12, in <module>
+    from fdfs_client.utils import *
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/fdfs_client/utils.py", line 230
+    print get_file_ext_name('/bc.tar.gz')
+                          ^
+SyntaxError: invalid syntax
+ERROR 2018-09-07 18:58:33,262 basehttp 124 "POST /ckeditor/upload/ HTTP/1.1" 500 139408

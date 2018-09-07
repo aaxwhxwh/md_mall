@@ -7,13 +7,14 @@
 """
 import re
 
-from rest_framework import serializers
+from rest_framework import serializers, status
 from django_redis import get_redis_connection
+from rest_framework.response import Response
 from rest_framework_jwt.settings import api_settings
 from users.utils import generate_save_user_token
 from celery_tasks.mail.tasks import send_verify_email
 
-from users.models import Users
+from users.models import Users, Address
 
 
 class CreateUserSerializer(serializers.ModelSerializer):
@@ -65,7 +66,6 @@ class CreateUserSerializer(serializers.ModelSerializer):
 
     # 校验参数
     def validate(self, attrs):
-        print(attrs)
         # 判断密码是否一致
         password = attrs.get('password')
         password2 = attrs.get('password2')
@@ -77,8 +77,6 @@ class CreateUserSerializer(serializers.ModelSerializer):
         sms_code = attrs.get('sms_code')
         redis = get_redis_connection('verify')
         redis_sms_code = redis.get('sms_%s' % mobile)
-        print(mobile)
-        print(redis_sms_code)
         try:
             redis_sms_code = redis_sms_code.decode()
         except Exception as e:
@@ -131,3 +129,66 @@ class EmailSerializer(serializers.ModelSerializer):
 
         return instance
 
+
+class UserAddressSerializer(serializers.ModelSerializer):
+
+    province = serializers.StringRelatedField(read_only=True)
+    city = serializers.StringRelatedField(read_only=True)
+    district = serializers.StringRelatedField(read_only=True)
+
+    province_id = serializers.IntegerField(label='省ID', required=True)
+    city_id = serializers.IntegerField(label='市ID', required=True)
+    district_id = serializers.IntegerField(label='区ID', required=True)
+
+    class Meta:
+        model = Address
+        exclude = ('user', 'is_deleted', 'create_time', 'update_time')
+
+    def validate_mobile(self, value):
+        """
+        验证手机号
+        """
+        if not re.match(r'^1[3-9]\d{9}$', value):
+            raise serializers.ValidationError('手机号格式错误')
+        return value
+
+    def create(self, validated_data):
+        validated_data['user'] = self.context["request"].user
+        return super().create(validated_data)
+
+
+class AddressTitleSerializer(serializers.ModelSerializer):
+    """
+    地址标题
+    """
+    class Meta:
+        model = Address
+        fields = ['title']
+
+
+class ChangePasswordSerializer(serializers.Serializer):
+    password = serializers.CharField(label='确认密码', write_only=True)
+    new_password = serializers.CharField(label='确认密码', write_only=True)
+    new_password2 = serializers.CharField(label='确认密码', write_only=True)
+
+    def validate(self, attrs):
+        # 判断密码是否一致
+        print(attrs)
+        password = attrs.get('new_password')
+        password2 = attrs.get('new_password2')
+        if password != password2:
+            raise serializers.ValidationError("两次密码输入不一致")
+
+        return attrs
+
+    def update(self, instance, validated_data):
+        print(789)
+        print(validated_data['password'])
+        print(instance.check_password(validated_data['password']))
+        if not instance.check_password(validated_data['password']):
+
+            raise serializers.ValidationError("密码错误")
+        instance.set_password(validated_data['new_password'])
+        instance.save()
+
+        return instance
