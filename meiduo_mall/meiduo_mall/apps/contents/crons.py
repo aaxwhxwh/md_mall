@@ -42,6 +42,7 @@ def generate_static_index_html():
     content_categories = ContentCategory.objects.all()
     # 根据分类查询广告数据
     for cat in content_categories:
+        # print(cat.key)
         contents[cat.key] = cat.content_set.filter(status=True).order_by('sequence')
 
     # 填充数据
