@@ -18,4 +18,6 @@ app = Celery("meiduo")
 app.config_from_object("celery_tasks.config")
 
 # 声明获取异步任务的队列[目录中必须有一个tasks.py]
-app.autodiscover_tasks(['celery_tasks.sms', 'celery_tasks.mail'])
+app.autodiscover_tasks(['celery_tasks.sms',
+                        'celery_tasks.mail',
+                        'celery_tasks.html'])

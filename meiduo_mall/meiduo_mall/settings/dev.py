@@ -55,9 +55,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
-    'corsheaders',
-    'ckeditor',
-    'ckeditor_uploader',
+    'corsheaders',  # 跨域请求白名单
+    'ckeditor', # 富文本编辑器
+    'ckeditor_uploader', # 富文本编辑上传
+    'django_crontab', # 定时任务
 
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
@@ -84,7 +85,7 @@ ROOT_URLCONF = 'meiduo_mall.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -229,7 +230,8 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.BasicAuthentication',
     ),
-    # 'DEFAULT_PAGINATION_CLASS':
+
+    'DEFAULT_PAGINATION_CLASS': 'meiduo_mall.utils.pagination.StandardResultsSetPagination',
 }
 
 REST_FRAMEWORK_EXTENSIONS = {
@@ -284,3 +286,11 @@ CKEDITOR_CONFIGS = {
     },
 }
 CKEDITOR_UPLOAD_PATH = ''  # 上传图片保存路径，使用了FastDFS，所以此处设为''
+
+GENERATED_STATIC_HTML_FILE_DIR = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)),'front_end_pc')
+
+CRONJOBS = [
+    ('*/1 * * * *', 'contents.crons.generate_static_index_html', '>> /Users/will/Desktop/md_mall/meiduo_mall/logs/crontab.log')
+]
+
+CRONTAB_COMMAND_PREFIX = 'LANG_ALL=zh-cn.UTF-8'

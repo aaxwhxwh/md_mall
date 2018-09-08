@@ -3327,3 +3327,216 @@ Traceback (most recent call last):
                           ^
 SyntaxError: invalid syntax
 ERROR 2018-09-07 18:58:33,262 basehttp 124 "POST /ckeditor/upload/ HTTP/1.1" 500 139408
+INFO 2018-09-07 19:35:34,624 basehttp 124 "GET /admin/ HTTP/1.1" 200 7233
+INFO 2018-09-07 19:35:38,437 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 19:35:38,568 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 19:35:41,725 basehttp 124 "GET /admin/goods/goods/add/ HTTP/1.1" 200 84029
+INFO 2018-09-07 19:35:41,763 basehttp 124 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:41,773 basehttp 124 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:41,792 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 19:35:42,197 basehttp 124 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:42,238 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:42,238 basehttp 124 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:42,253 basehttp 124 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:42,272 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:42,272 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:42,272 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:42,273 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:42,285 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:42,335 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png?t=95e5d83 HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:42,374 basehttp 124 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:44,132 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:44,133 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/image/dialogs/image.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:44,190 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/refresh.png HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:44,193 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/close.png HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:44,193 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock.png HTTP/1.1" 304 0
+INFO 2018-09-07 19:35:52,642 basehttp 124 "POST /ckeditor/upload/ HTTP/1.1" 200 139
+INFO 2018-09-07 21:02:36,776 basehttp 124 "GET /admin/ HTTP/1.1" 200 7233
+INFO 2018-09-07 21:02:40,655 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 21:02:40,713 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:02:42,638 basehttp 124 "GET /admin/goods/goods/3/change/ HTTP/1.1" 200 87281
+INFO 2018-09-07 21:02:42,690 basehttp 124 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:42,692 basehttp 124 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:42,704 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:02:43,019 basehttp 124 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:43,048 basehttp 124 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:43,049 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:43,077 basehttp 124 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:43,101 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:43,103 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:43,105 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:43,106 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:43,121 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:43,172 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png?t=95e5d83 HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:43,219 basehttp 124 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 21:02:51,117 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 21:02:51,155 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:02:53,318 basehttp 124 "GET /admin/goods/ HTTP/1.1" 200 6433
+INFO 2018-09-07 21:02:55,591 basehttp 124 "GET /admin/goods/content/ HTTP/1.1" 200 29750
+INFO 2018-09-07 21:02:55,635 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:02:57,015 basehttp 124 "GET /admin/goods/content/120/change/ HTTP/1.1" 200 9015
+INFO 2018-09-07 21:02:57,054 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:00,008 basehttp 124 "GET /admin/goods/content/ HTTP/1.1" 200 29750
+INFO 2018-09-07 21:03:01,147 basehttp 124 "GET /admin/goods/content/123/change/ HTTP/1.1" 200 9038
+INFO 2018-09-07 21:03:01,178 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:02,288 basehttp 124 "GET /admin/goods/content/ HTTP/1.1" 200 29750
+INFO 2018-09-07 21:03:04,276 basehttp 124 "GET /admin/goods/ HTTP/1.1" 200 6433
+INFO 2018-09-07 21:03:05,336 basehttp 124 "GET /admin/ HTTP/1.1" 200 7233
+INFO 2018-09-07 21:03:06,665 basehttp 124 "GET /admin/goods/skuimage/ HTTP/1.1" 200 15617
+INFO 2018-09-07 21:03:06,729 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:07,706 basehttp 124 "GET /admin/goods/skuimage/43/change/ HTTP/1.1" 200 7068
+INFO 2018-09-07 21:03:07,750 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:24,245 basehttp 124 "GET /admin/goods/skuimage/ HTTP/1.1" 200 15617
+INFO 2018-09-07 21:03:24,282 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:26,425 basehttp 124 "GET /admin/goods/skuimage/39/change/ HTTP/1.1" 200 7068
+INFO 2018-09-07 21:03:26,462 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:38,506 basehttp 124 "GET /admin/ HTTP/1.1" 200 7233
+INFO 2018-09-07 21:03:41,686 basehttp 124 "GET /admin/goods/contentcategory/ HTTP/1.1" 200 8546
+INFO 2018-09-07 21:03:41,728 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:42,534 basehttp 124 "GET /admin/ HTTP/1.1" 200 7233
+INFO 2018-09-07 21:03:44,791 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8574
+INFO 2018-09-07 21:03:44,824 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:46,879 basehttp 124 "GET /admin/goods/sku/16/change/ HTTP/1.1" 200 34191
+INFO 2018-09-07 21:03:46,922 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:48,389 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8574
+INFO 2018-09-07 21:03:49,389 basehttp 124 "GET /admin/ HTTP/1.1" 200 7233
+INFO 2018-09-07 21:03:50,699 basehttp 124 "GET /admin/goods/skuimage/ HTTP/1.1" 200 15617
+INFO 2018-09-07 21:03:50,735 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:52,649 basehttp 124 "GET /admin/ HTTP/1.1" 200 7233
+INFO 2018-09-07 21:03:54,488 basehttp 124 "GET /admin/goods/skuspecification/ HTTP/1.1" 200 14834
+INFO 2018-09-07 21:03:54,518 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:56,074 basehttp 124 "GET /admin/goods/skuspecification/29/change/ HTTP/1.1" 200 11160
+INFO 2018-09-07 21:03:56,120 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:03:57,121 basehttp 124 "GET /admin/goods/skuspecification/ HTTP/1.1" 200 14834
+INFO 2018-09-07 21:03:57,320 basehttp 124 "GET /admin/ HTTP/1.1" 200 7233
+INFO 2018-09-07 21:03:59,590 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8574
+INFO 2018-09-07 21:03:59,638 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:04:01,147 basehttp 124 "GET /admin/goods/sku/13/change/ HTTP/1.1" 200 34185
+INFO 2018-09-07 21:04:01,178 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:04:02,603 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8574
+INFO 2018-09-07 21:04:03,348 basehttp 124 "GET /admin/ HTTP/1.1" 200 7233
+INFO 2018-09-07 21:04:05,357 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 21:04:05,394 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:04:07,519 basehttp 124 "GET /admin/goods/goods/1/change/ HTTP/1.1" 200 88919
+INFO 2018-09-07 21:04:07,563 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:04:13,771 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 21:04:13,810 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:04:15,580 basehttp 124 "GET /admin/goods/goods/add/ HTTP/1.1" 200 84029
+INFO 2018-09-07 21:04:15,607 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:04:17,328 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/image/dialogs/image.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 21:04:17,329 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-07 21:04:17,380 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/refresh.png HTTP/1.1" 304 0
+INFO 2018-09-07 21:04:17,384 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock.png HTTP/1.1" 304 0
+INFO 2018-09-07 21:04:17,385 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/close.png HTTP/1.1" 304 0
+INFO 2018-09-07 21:04:39,430 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 21:04:41,171 basehttp 124 "GET /admin/goods/goods/1/change/ HTTP/1.1" 200 88919
+INFO 2018-09-07 21:04:42,371 basehttp 124 "GET /admin/ HTTP/1.1" 200 7233
+INFO 2018-09-07 21:06:02,834 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 21:06:02,892 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:06:04,676 basehttp 124 "GET /admin/goods/goods/3/change/ HTTP/1.1" 200 87281
+INFO 2018-09-07 21:06:04,726 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:23:44,398 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4662
+INFO 2018-09-07 21:23:44,449 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-07 21:23:47,256 basehttp 124 "GET /admin/goods/goods/2/change/ HTTP/1.1" 200 87813
+INFO 2018-09-07 21:23:47,299 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-08 14:40:24,005 basehttp 124 "GET / HTTP/1.1" 200 9598
+INFO 2018-09-08 14:40:24,307 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2018-09-08 14:40:24,320 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2018-09-08 14:40:24,321 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2018-09-08 14:40:24,328 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2018-09-08 14:40:24,334 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2018-09-08 14:40:24,338 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2018-09-08 14:40:24,341 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2018-09-08 14:40:24,342 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2018-09-08 14:40:24,342 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2018-09-08 14:40:24,342 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+INFO 2018-09-08 14:40:24,449 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2018-09-08 14:40:34,054 base 152 Not Found: /categories
+WARNING 2018-09-08 14:40:34,055 basehttp 124 "GET /categories HTTP/1.1" 404 7391
+INFO 2018-09-08 14:40:39,324 basehttp 124 "GET /categories/115 HTTP/1.1" 301 0
+INFO 2018-09-08 14:40:39,366 basehttp 124 "GET /categories/115/ HTTP/1.1" 200 9970
+ERROR 2018-09-08 14:41:17,536 exception 135 Internal Server Error: /categories/115/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'GoodsChannel' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/goods/views.py", line 35, in get
+    ret['cat1'] = ChannelSerializer(cat2.parent.goodschannel_set.all()[0]).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `ChannelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `GoodsChannel` instance.
+Original exception text was: 'GoodsChannel' object has no attribute 'name'.
+ERROR 2018-09-08 14:41:17,656 basehttp 124 "GET /categories/115/ HTTP/1.1" 500 120566
+ERROR 2018-09-08 14:41:18,658 exception 135 Internal Server Error: /categories/115/
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 441, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 100, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'GoodsChannel' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/will/Desktop/md_mall/meiduo_mall/meiduo_mall/apps/goods/views.py", line 35, in get
+    ret['cat1'] = ChannelSerializer(cat2.parent.goodschannel_set.all()[0]).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/will/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/fields.py", line 462, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `ChannelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `GoodsChannel` instance.
+Original exception text was: 'GoodsChannel' object has no attribute 'name'.
+ERROR 2018-09-08 14:41:18,726 basehttp 124 "GET /categories/115/ HTTP/1.1" 500 120567
+INFO 2018-09-08 14:42:00,929 basehttp 124 "GET /categories/115/ HTTP/1.1" 200 10093
+INFO 2018-09-08 15:52:52,919 basehttp 124 "GET / HTTP/1.1" 200 9598
+INFO 2018-09-08 15:53:07,780 basehttp 124 "GET /categories/115/skus HTTP/1.1" 200 12108

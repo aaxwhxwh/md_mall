@@ -5,7 +5,7 @@
 @file: urls.py
 @time: 2018/09/05
 """
-from rest_framework.routers import DefaultRouter, SimpleRouter
+from rest_framework.routers import DefaultRouter
 from . import views
 
 urlpatterns = []
