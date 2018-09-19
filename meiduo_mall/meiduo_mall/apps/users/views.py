@@ -1,19 +1,25 @@
 from django.shortcuts import render
 
 # Create your views here.
+from django_redis import get_redis_connection
 from rest_framework.decorators import action
 from rest_framework.generics import CreateAPIView, GenericAPIView, UpdateAPIView
+from rest_framework.mixins import CreateModelMixin
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ModelViewSet
+from rest_framework_jwt.views import ObtainJSONWebToken
 
+from carts.utils import merge_cart_cookie_to_redis
+from goods.models import SKU
+from goods.serializers import SKUSerializer
 from meiduo_mall.utils.exceptons import logger
 from users import constants
 from users.models import Users, Address
 from users.serializers import CreateUserSerializer, EmailSerializer, UserAddressSerializer, AddressTitleSerializer, \
-    ChangePasswordSerializer
+    ChangePasswordSerializer, AddUserBrowsingHistorySerializer
 from users.utils import get_save_user_token
 
 
@@ -144,4 +150,37 @@ class ChangePasswordView(UpdateAPIView):
         print(123456)
         print(self.request.data.get('password'))
         return self.request.user
+
+
+class UserBrowsingHistoryView(CreateAPIView):
+    permission_classes = [IsAuthenticated]
+    serializer_class = AddUserBrowsingHistorySerializer
+
+    def get(self, request):
+        user_id = request.user.id
+        redis = get_redis_connection('history')
+        history = redis.lrange('history_%s' % user_id, 0, constants.USER_BROWSING_HISTORY_COUNT_LIMIT-1)
+        skus = []
+        for sku_id in history:
+            sku_id = sku_id.decode()
+            sku = SKU.objects.get(id=sku_id)
+            skus.append(sku)
+
+        serializer = SKUSerializer(skus, many=True)
+
+        return Response(serializer.data)
+
+
+class UserAuthorizeView(ObtainJSONWebToken):
+
+    def post(self, request, *args, **kwargs):
+        response = super().post(request, *args, **kwargs)
+
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        if serializer:
+            user = serializer.object.get('user') or request.user
+        response = merge_cart_cookie_to_redis(request, user, response)
+
+        return response
 

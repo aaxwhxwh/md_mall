@@ -8,6 +8,7 @@ from rest_framework.views import APIView
 from django.conf import settings
 from rest_framework_jwt.settings import api_settings
 
+from carts.utils import merge_cart_cookie_to_redis
 from oauth.serializers import QQOauthSerializer
 from oauth.utils import generate_save_user_token
 
@@ -71,7 +72,11 @@ class QQAuthUserView(GenericAPIView):
                 "user_id": user.id,
                 "username": user.username
             }
-            return Response(data)
+            response = Response(data)
+            # 合并购物车
+            response = merge_cart_cookie_to_redis(request, user, response)
+
+            return response
 
     def post(self, request):
         serializer = self.get_serializer(data=request.data)
@@ -84,8 +89,12 @@ class QQAuthUserView(GenericAPIView):
         payload = jwt_payload_handler(user)
         token = jwt_encode_handler(payload)
 
-        return Response({
+        response = Response({
             "token": token,
             "user_id": user.id,
             "username": user.username
         })
+
+        response = merge_cart_cookie_to_redis(request, user, response)
+
+        return response

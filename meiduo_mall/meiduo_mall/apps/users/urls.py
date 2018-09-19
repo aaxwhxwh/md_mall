@@ -15,11 +15,13 @@ from users.views import AddressesViewSet
 urlpatterns = [
     url(r'^usernames/(?P<username>\w{5, 20})/count/$', views.UsernameCountView.as_view()),
     url(r'users/$', views.CreateUser.as_view()),
-    url(r'authorizations/$', obtain_jwt_token),
+    # url(r'authorizations/$', obtain_jwt_token),
+    url(r'authorizations/$', views.UserAuthorizeView.as_view()),
     url(r'^user/$', views.UserDetailView.as_view()),
     url(r'email/$', views.SendEmailView.as_view()),
     url(r'emails/verification/$', views.VerifyEmailView.as_view()),
     url(r'^user/password/$', views.ChangePasswordView.as_view()),
+    url(r'^browse_histories/$', views.UserBrowsingHistoryView.as_view()),
 ]
 
 router = DefaultRouter()

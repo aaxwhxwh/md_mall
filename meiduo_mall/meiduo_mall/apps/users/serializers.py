@@ -11,6 +11,9 @@ from rest_framework import serializers, status
 from django_redis import get_redis_connection
 from rest_framework.response import Response
 from rest_framework_jwt.settings import api_settings
+
+from goods.models import SKU
+from users import constants
 from users.utils import generate_save_user_token
 from celery_tasks.mail.tasks import send_verify_email
 
@@ -192,3 +195,28 @@ class ChangePasswordSerializer(serializers.Serializer):
         instance.save()
 
         return instance
+
+
+class AddUserBrowsingHistorySerializer(serializers.Serializer):
+
+    sku_id = serializers.IntegerField(label="商品SKU编号", min_value=1)
+
+    def validate_sku_id(self, value):
+        try:
+            sku = SKU.objects.get(pk=value)
+        except SKU.DoesNotExist:
+            raise serializers.ValidationError("用户信息不存在")
+        return value
+
+    def create(self, validated_data):
+        redis = get_redis_connection('history')
+        user_id = self.context['request'].user.id
+        sku_id = validated_data['sku_id']
+
+        pl = redis.pipeline()
+        pl.lrem('history_%s' % user_id, 0, sku_id)
+        pl.lpush('history_%s' % user_id, sku_id)
+        pl.ltrim('history_%s' % user_id, 0, constants.USER_BROWSING_HISTORY_COUNT_LIMIT-1)
+        pl.execute()
+
+        return validated_data

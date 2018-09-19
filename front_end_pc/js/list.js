@@ -105,6 +105,7 @@ var vm = new Vue({
                     responseType: 'json'
                 })
                 .then(response => {
+                    console.log(response.data)
                     this.count = response.data.count;
                     this.skus = response.data.results;
                     for(var i=0; i<this.skus.length; i++){
@@ -161,8 +162,8 @@ var vm = new Vue({
                 })
                 .then(response => {
                     this.hots = response.data;
-                    for(var i=0; i<this.hots.length; i++){
-                        this.hots[i].url = '/goods/' + this.hots[i].id + '.html';
+                    for(var i=0; i<this.hots.results.length; i++){
+                        this.hots.results[i].url = '/goods/' + this.hots.results[i].id + '.html';
                     }
                 })
                 .catch(error => {

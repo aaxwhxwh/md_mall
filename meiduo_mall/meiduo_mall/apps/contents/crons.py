@@ -12,10 +12,8 @@ from django.template import loader
 import time
 import os
 
-# from goods.models import
 from contents.models import ContentCategory
 from goods.utils import get_categories
-from meiduo_mall.settings.dev import GENERATED_STATIC_HTML_FILE_DIR
 
 
 def generate_static_index_html():
@@ -42,7 +40,6 @@ def generate_static_index_html():
     content_categories = ContentCategory.objects.all()
     # 根据分类查询广告数据
     for cat in content_categories:
-        # print(cat.key)
         contents[cat.key] = cat.content_set.filter(status=True).order_by('sequence')
 
     # 填充数据
@@ -51,9 +48,10 @@ def generate_static_index_html():
         'contents': contents
     }
     template = loader.get_template('index.html')
+    print(template)
     html_text = template.render(context)
 
     # 保存页面
-    file_path = os.path.join(GENERATED_STATIC_HTML_FILE_DIR, 'index.html')
+    file_path = os.path.join(settings.GENERATED_STATIC_HTML_FILE_DIR, 'index.html')
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(html_text)

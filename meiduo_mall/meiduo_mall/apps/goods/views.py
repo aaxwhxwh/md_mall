@@ -1,12 +1,13 @@
 from django.shortcuts import render
 
 # Create your views here.
+from drf_haystack.viewsets import HaystackViewSet
 from rest_framework.filters import OrderingFilter
 from rest_framework.generics import GenericAPIView, ListAPIView
 from rest_framework.response import Response
 
 from goods.models import GoodsCategory, SKU
-from goods.serializers import ChannelSerializer, GoodsCategorySerializer, SKUSerializer
+from goods.serializers import ChannelSerializer, GoodsCategorySerializer, SKUSerializer, SKUIndexSerializer
 
 
 class CategoryView(GenericAPIView):
@@ -56,3 +57,22 @@ class SKUListView(ListAPIView):
         category_id = self.kwargs['category_id']
         return SKU.objects.filter(category_id=category_id, is_launched=True)
 
+
+class HotSKUSListView(ListAPIView):
+
+    serializer_class = SKUSerializer
+    filter_backends = [OrderingFilter]
+    orderring_fields = ['sales']
+
+    # 重写queryset方法，自定义查找条件
+    def get_queryset(self):
+        # self.kwargs 为获取路有种正则匹配传递的参数,drf框架APIView中调用
+        category_id = self.kwargs['category_id']
+        return SKU.objects.filter(category_id=category_id, is_launched=True)
+
+
+class SKUSearchViewSet(HaystackViewSet):
+
+    index_models = [SKU]
+
+    serializer_class = SKUIndexSerializer

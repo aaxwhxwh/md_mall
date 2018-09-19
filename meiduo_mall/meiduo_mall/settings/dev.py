@@ -56,9 +56,13 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'corsheaders',  # 跨域请求白名单
-    'ckeditor', # 富文本编辑器
-    'ckeditor_uploader', # 富文本编辑上传
-    'django_crontab', # 定时任务
+    'ckeditor',  # 富文本编辑器
+    'ckeditor_uploader',  # 富文本编辑上传
+    'django_crontab',  # 定时任务
+    'xadmin',
+    'crispy_forms',
+    'reversion',
+    'haystack',  # 搜索引擎
 
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
@@ -66,6 +70,9 @@ INSTALLED_APPS = [
     'areas.apps.AreasConfig',
     'contents.apps.ContentsConfig',
     'goods.apps.GoodsConfig',
+    'carts.apps.CartsConfig',
+    'orders.apps.OrdersConfig',
+    'payments.apps.PaymentsConfig',
 ]
 
 MIDDLEWARE = [
@@ -112,6 +119,14 @@ DATABASES = {
         'USER': 'meiduo',
         'PASSWORD': 'meiduo',
         'NAME': 'meiduo_mall'
+    },
+    'slave': {
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': '127.0.0.1',
+        'PORT': 8306,
+        'USER': 'root',
+        'PASSWORD': 'mysql',
+        'NAME': 'meiduo_mall'
     }
 }
 
@@ -130,13 +145,30 @@ CACHES = {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
+    # 验证信息
     "verify": {
         "BACKEND": "django_redis.cache.RedisCache",
         "LOCATION": "redis://127.0.0.1:6379/2",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
-    }
+    },
+    # 浏览历史
+    "history": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/4",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 购物车
+    "cart": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/5",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
 }
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
@@ -287,10 +319,35 @@ CKEDITOR_CONFIGS = {
 }
 CKEDITOR_UPLOAD_PATH = ''  # 上传图片保存路径，使用了FastDFS，所以此处设为''
 
-GENERATED_STATIC_HTML_FILE_DIR = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)),'front_end_pc')
+GENERATED_STATIC_HTML_FILE_DIR = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), 'front_end_pc')
 
 CRONJOBS = [
     ('*/1 * * * *', 'contents.crons.generate_static_index_html', '>> /Users/will/Desktop/md_mall/meiduo_mall/logs/crontab.log')
 ]
 
-CRONTAB_COMMAND_PREFIX = 'LANG_ALL=zh-cn.UTF-8'
+CRONTAB_COMMAND_PREFIX = 'LANG_ALL=zh-cn.UTF-8',
+
+# Haystack
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        'URL': 'http://149.28.153.156:9200/',  # 此处为elasticsearch运行的服务器ip地址，端口号固定为9200
+        'INDEX_NAME': 'meiduo',  # 指定elasticsearch建立的索引库的名称
+    },
+}
+
+# 当添加、修改、删除数据时，自动生成索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+
+# 支付宝配置信息
+ALIPAY_APPID = 2016091600527123
+ALIPAY_DEBUG = True
+ALIPAY_URL = "https://openapi.alipaydev.com/gateway.do"
+ALIPAY_CALLBACK_URL = "http://wwgw.meiduo.site:8080/"
+
+# 数据库读写分离配置
+DATABASE_ROUTERS = ['meiduo_mall.utils.db_router.MasterSlaveDBRouter']
+
+
+# django项目框架提供静态文件目录导出路径
+STATIC_ROOT = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), 'front_end_pc/static')

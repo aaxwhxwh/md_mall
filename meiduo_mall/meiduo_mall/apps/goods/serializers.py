@@ -5,9 +5,11 @@
 @file: serializers.py
 @time: 2018/09/08
 """
+from drf_haystack.serializers import HaystackSerializer
 from rest_framework import serializers
 
 from goods.models import SKU
+from goods.search_indexes import SKUIndex
 
 
 class GoodsCategorySerializer(serializers.Serializer):
@@ -27,3 +29,13 @@ class SKUSerializer(serializers.ModelSerializer):
         model = SKU
         fields = ['id', 'name', 'price', 'default_image_url', 'comments']
 
+
+class SKUIndexSerializer(HaystackSerializer):
+    """
+    SKU索引结果序列化器
+    """
+    object = SKUSerializer(read_only=True)
+
+    class Meta:
+        index_classes = [SKUIndex]
+        fields = ['text', 'object']

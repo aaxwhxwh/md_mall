@@ -91,7 +91,7 @@ var vm = new Vue({
                     this.count = response.data.count;
                     this.skus = response.data.results;
                     for(var i=0; i<this.skus.length; i++){
-                        this.skus[i].url = '/goods/' + this.skus[i].id + ".html";
+                        this.skus[i].url = '/goods/' + this.skus[i].object.id + ".html";
                     }
                 })
                 .catch(error => {
